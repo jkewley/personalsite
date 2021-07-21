@@ -7,6 +7,7 @@ import GithubIcon from '../assets/github.svg';
 import InstagramIcon from '../assets/instagram.svg';
 import LinkedinIcon from '../assets/linkedin.svg';
 import React from 'react';
+import SOIcon from '../assets/stackoverflow.svg';
 import TwitterIcon from '../assets/twitter.svg';
 import YoutubeIcon from '../assets/youtube.svg';
 
@@ -32,6 +33,9 @@ const SocialIcon = ({ type }) => {
       return <AngelIcon className="footer-social-icon" />;
     case 'devto':
       return <DevtoIcon className="footer-social-icon" />;
+    case 'stackoverflow':
+      return <SOIcon className="footer-social-icon" />;
+
     default:
       return null;
   }
