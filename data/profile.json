@@ -1,272 +1,486 @@
 {
   "contact": {
     "phone": "480.221.3794",
-    "email": "contact@joshkewley.com",
-    "website": "https://joshkewley.com",
+    "email": "joshkewley@outlook.com",
     "location": "Brentwood, Tennessee"
   },
-  "skills": [
-    {
-      "title": "General",
+  "fullname": "Josh Kewley",
+  "role": "Azure Architect",
+  "summary": "I'm an experienced Azure Architect with a deep Microsoft-centered development background. I have a track record of helping businesses large and small plan for, migrate, and modernize their workloads in the Azure cloud. I'm an Azure fanatic and automation enthusiast who enjoys the delivery side of IT consulting",
+  "skills": [{
+      "title": "Azure",
       "type": "percent",
-      "subskills": [
-        {
-          "name": "Architecture",
+      "subskills": [{
+          "name": "Cloud Architecture",
           "percent": 89
         },
         {
-          "name": "Mobile/Web App Development",
+          "name": "PaaS / Serverless",
           "percent": 95
         },
         {
-          "name": "Product Management",
-          "percent": 85
+          "name": "IaaS",
+          "percent": 75
         },
         {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
+          "name": "Networking",
           "percent": 70
         },
         {
-          "name": "Blockchain",
+          "name": "Identity",
           "percent": 85
         },
         {
           "name": "Dev Ops",
-          "percent": 81
+          "percent": 90
         },
         {
-          "name": "Backend Development",
-          "percent": 93
+          "name": "Application Insights",
+          "percent": 89
         },
         {
-          "name": "Data Science",
-          "percent": 65
-        },
-        {
-          "name": "Artificial Intelligence",
-          "percent": 70
-        },
-        {
-          "name": "UX",
-          "percent": 80
+          "name": "Powershell & Azure CLI",
+          "percent": 95
         }
       ]
     },
     {
       "title": "Languages",
       "type": "percent",
-      "subskills": [
+      "subskills": [{
+          "name": "C#",
+          "percent": 95
+        },
         {
           "name": "Javascript",
-          "percent": 96
+          "percent": 85
+        },
+        {
+          "name": "Typescript",
+          "percent": 80
         },
         {
           "name": "Java",
-          "percent": 82
-        },
-        {
-          "name": "Python",
-          "percent": 85
-        },
-        {
-          "name": "C#",
-          "percent": 74
-        },
-        {
-          "name": "Solidity",
-          "percent": 85
-        },
-        {
-          "name": "Dart",
           "percent": 75
         },
         {
-          "name": "Go",
-          "percent": 60
+          "name": "T-SQL",
+          "percent": 75
         }
       ]
     },
     {
       "title": "Frameworks",
       "type": "tag",
-      "subskills": [
-        {
-          "name": "React"
+      "subskills": [{
+          "name": ".Net Core"
         },
         {
-          "name": "Flutter"
+          "name": ".Net Framework"
         },
         {
-          "name": "React Native"
+          "name": "MSAL"
         },
         {
-          "name": "Vue"
-        },
-        {
-          "name": "Spring"
+          "name": "ARM"
         },
         {
           "name": "Angular"
         },
         {
-          "name": "Electron"
+          "name": "Spring"
         },
         {
           "name": "Node"
         },
         {
-          "name": "Flusk"
-        },
-        {
-          "name": "Express"
-        },
-        {
-          "name": "Koa"
-        },
-        {
-          "name": "Gatsby"
-        },
-        {
-          "name": "Apollo"
-        },
-        {
-          "name": "Django"
-        },
-        {
-          "name": "Loopback"
-        },
-        {
-          "name": "Next"
-        },
-        {
-          "name": "Amplify"
-        },
-        {
-          "name": "Pixi"
-        },
-        {
-          "name": "Phaser"
-        },
-        {
-          "name": "Feathers"
+          "name": "Entity Framework"
         }
       ]
     },
     {
-      "title": "Software",
+      "title": "Tools / Platforms",
       "type": "tag",
-      "subskills": [
+      "subskills": [{
+          "name": "Visual Studio"
+        },
+        {
+          "name": "Visual Studio Code"
+        },
+        {
+          "name": "Azure Dev Ops"
+        },
         {
           "name": "Docker"
         },
         {
-          "name": "Jira"
+          "name": "Terraform"
         },
         {
-          "name": "Unity"
+          "name": "Powershell"
         },
         {
-          "name": "Godot"
+          "name": "Azure CLI"
         },
         {
-          "name": "Google Analytics"
-        }
-      ]
-    },
-    {
-      "title": "Databases",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Postgresql"
+          "name": "MS SQL"
         },
         {
-          "name": "Mongodb"
+          "name": "Postman"
         },
         {
-          "name": "Parse"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
+          "name": "IntelliJ"
         }
       ]
     }
   ],
-  "summary": "Highly focused technologist with a multidisciplinary skill set honed over 15+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 15+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
-  "education": [
-    {
-      "institution": "Middle East Technical University, Turkey",
-      "degree": "Geological Engineering",
-      "start": "2013",
-      "end": "2006"
+  "education": [{
+      "institution": "James Madison University",
+      "degree": "",
+      "start": "1992",
+      "end": "1992"
     },
     {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "institution": "Scottsdale Community College",
+      "degree": "",
+      "start": "1994",
+      "end": "1995"
+    },
+    {
+      "institution": "Arizona State University",
+      "degree": "",
+      "start": "1995",
+      "end": "1995"
     }
   ],
-  "experience": [
-    {
-      "role": "Consultant",
-      "company": "Josh Kewley Consulting",
-      "description": "I consult startups to take their concept to the next level.",
-      "start": "08/2018",
-      "end": ""
+  "experience": [{
+      "role": "Technical Lead",
+      "company": "Kroger Pharmacy",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Technical lead for Kroger Pharmacy's first Azure deployment. We migrated a Cold Fusion web app to Java and authentication mechanisms from LDAP / SiteMinder to Azure Active Directory.",
+      "description": "As a tech lead for the spearhead project with Kroger Pharmacy, I led a team in the modernization of a Cold Fusion web application. Our team collaborated with Kroger Pharmacy IT to bring their first architecture to the cloud which featured private networking features, Linux PaaS services, and Terraform CI/CD processes. In addition, we delivered a reference architecture and claims mapping strategies for Angular applications with Java back ends built on top of Azure Active Directory authentication. I helped shape naming convention guidelines for the broader Kroger organization based on work I had done over the years with other organizations who were new to Azure. Our team delivery was celebrated inside Kroger, leading to millions of dollars in additional multi-year contract work.",
+      "start": "08/2020",
+      "end": "06/2021",
+      "tags": {
+        "Identity": "Our migration piloted AAD authentication for employee accounts within Kroger Pharmacy. I combined a claims mapping policy with directory extensions and application roles to provide a familiar single sign on login experience using authorization code flow with PKCE.",
+        "Web": "The Angular application was built on Kroger's standard of Angular 8. It leveraged ngrx for state management and MSAL for OAuth user flows.",
+        "PaaS": "The application was deployed to a Linux app service instance and leveraged private endpoint support across Azure SQL and Azure storage accounts. Application Insights and Azure Data Factory also played important roles in the deliverable's makeup.",
+        "IaaS": "",
+        "Code": "The application's API layer was written in Java 8 on top of Spring Boot. Logging to application insights via Log4j provided support teams with key performance and user metrics. Hundreds of unit tests provide the team with a safety net during refactorings and pull request validations.",
+        "Data": "The legacy version of the application was built on SSIS powered ETL flows. During the modernization effort these flows were hardened and adapted to Azure monitoring platforms. The data representing newer metrics was sourced via Azure Data Lake and Azure Data Factory.",
+        "Modernization": "Originally written as a Cold Fusion app running internally on IIS, the task was to modernize the application by moving to Java and Linux hosting environment in Azure. Kroger had aggressive goals for an MVP release based on the close of their fiscal calendar. An agile approach allowed us to work with stakeholders to prioritize modernization efforts and application improvements where they were needed most, while helping us build out a detailed backlog to help shape future development efforts.",
+        "DevOps": "I contributed to the initial Terraform recipies for hub-and-spoke App Service Plan deployments and helped the in-house DevOps team understand DevOps authorization and deployment strategies. We also built a custom pipeline approach for database deployments based on Entity Framework's approach."
+      }
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Malaeb Limited",
-      "description": "Malaeb is a group sports community and booking platform. I was managing all technical aspects of the product. I designed a new solution to improve the current platform, build and manage a new development team to migrate the new app. Implement better internal processes to increase productivity.",
+      "role": "DevOps Consultant",
+      "company": "Walgreens Boots Alliance",
+      "via": "Microsoft Consulting Services",
+      "brief": "Built custom tooling to support DevOps processes used by Microsoft's internal IaaS application migration teams (LEAP).",
+      "description": "In a stand-alone role within WBA, I was responsible for designing the DevOps processes leveraged by IaaS-focused engineers on Microsoft's LEAP team to lift and shift hundreds of applications into Azure. The solution featured private build agents, application onboarding and pipeline creation automation, and a domain specific language which abstracted the technical requirements of the underlying Azure architecture, allowing Microsoft engineers to remain focused on application inventories without having to be fully knowledgable of WBA's security, architecture, and deployment requirements. I also became a key policy contributor for Azure naming conventions leveraged by WBA teams across the globe.",
+      "start": "02/2020",
+      "end": "09/2020",
+      "tags": {
+        "Identity": "I helped WBA design and implement their chained pipeline approach to separate the rights of template authors from service accounts, providing a least privilege solution.",
+        "Web": "",
+        "PaaS": "",
+        "IaaS": "Applications being migrated by the Microsoft teams were lift and shift Windows and Linux machines. Deployment variables for selections such as disk sizes, networking features, local agent installs and post-deployment scripting/hardening were implemented as templates with integration hooks to support ever-expanding requirements.",
+        "Code": "ARM templates which enforce WBA deployment standards and naming conventions are abstracted from modernization teams through the use of JSON-based specification documents. Custom JSON schemas provided intellisense, validation, and inline implementation instructions when using VS code to build templates.",
+        "Data": "",
+        "Modernization": "Most of the applications being migrated by the Microsoft engineers were lift-and-shift, but the my deliverable left application teams with a WBA-approved CI/CD process for their underlying infrastructure.",
+        "DevOps": "The approach leveraged Azure Dev Ops APIs, Powershell Core, and the Azure CLI to allow migration teams to stand up a new pipeline, provision baseline application specifications, and establish a backlog to track their progress. Linked repositories provide implementation isolation from migration work. A versioning strategy ensured older pipeline implementations will continue to run, even as the deployment schemas and pipelines mature and new features and strutures are introduced."
+      }
+    },
+    {
+      "role": "Application Uplift Architect",
+      "company": "Hershey Entertainment",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Envision and Plan engagement to help Hershey Entertainment prepare for an Azure migration of a number of LAMP-based self-hosted applications.",
+      "description": "Hershey Entertainment and Resorts was interested in a lift-and-shift solution for their key applications. They also asked us to look at modernization opportunities as they moved to the cloud and explore phased uplift approaches to accelerate adoption. The final deliverable to the client included a three-step plan for the migration effort and estimated runtime costs based on current traffic across multiple web sites.",
+      "start": "01/2020",
+      "end": "02/2020",
+      "tags": {
+        "Identity": "The migration plan deliverable included adoption of Azure Active Directory for administrative accounts and Azure RBAC.",
+        "Web": "Hershey sites ran on internal Linux VMs. The proposed solution took them to Azure's Linux-based app service offering with regional vnet connectivity for on-premises support teams.",
+        "PaaS": "I determined that many of the LAMP projects were ready for a low-impact migration to Azure App Service on Linux paired with Azure Storage and Azure's CDN offerings for static assets.",
+        "IaaS": "The primary booking engine was built on top of a CMS system which required deployment to a Linux VM, rather than a PaaS offering. I worked with the CMS vendor to determine the appropriate SKUs and deployment architecture for an Azure presence.",
+        "Code": "",
+        "Data": "",
+        "Modernization": "Hershey management was eager to move away from having to manage virtual machines and network architecture. Our final design moved all but a single workload to PaaS offerings and introduced a governance model to set them on a path toward better security and tracabilty.",
+        "DevOps": "I trained the Hershey Entertainment development teams on proper DevOps solutions and presented them with a preliminary target state for CI/CD. Prior to the engagement, the team used mapped drives and SSH to pushed new versions to production from developer laptops."
+      }
+    },
+    {
+      "role": "Azure Dev Ops Divestiture Consultant",
+      "company": "NC4",
+      "via": "Blue Chip Consulting Group",
+      "brief": "A divestiture required carving out code, processes, backlog items, and identites for several Azure Dev Ops projects, rehoming them in a new organization.",
+      "description": "Migrated projects, backlogs, code, and user accounts in Azure Dev Ops to a new organization as part of a company reorganization. The migration included custom scripts which leveraged Azure Dev Ops APIs to pump data across organizations and a third party tool to migrate an intact work item history.",
+      "start": "12/2019",
+      "end": "09/2019",
+      "tags": {
+        "Identity": "The divestiture required connecting identities across two Active Directories to retain historical ownership records.",
+        "Web": "",
+        "PaaS": "",
+        "IaaS": "",
+        "Code": "PowerShell scripts and the Azure CLI were written to migrate many of the legacy data points, including identities, custom queries, and custom processes.",
+        "Data": "",
+        "Modernization": "",
+        "DevOps": "This engagement operated completely withing Azure Dev Ops and leveraged several of the core REST APIs to help with the migration and validation processes."
+      }
+    },
+    {
+      "role": "IoT App Modernization Architect",
+      "company": "GrafTech International",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Envision and Plan engagement to help a commercial furnace manufacturer modernize their industry-defining application as it was moved to Azure.",
+      "description": "Gathered requirements and designed a cloud-based uplift solution for an industrial steel furnace manufacturer. The solution modernized the way application code was writtten and tested, replaced email-based data collection with Azure IoT offerings, and introduced a long-term big data strategy. The client was presented with multiple solutions which included a multi-phased approach for modernization efforts and Azure cost estimates for each. Development and training engagements was also presented to the client, who had limited development skillsets on staff.",
+      "start": "09/2019",
+      "end": "10/2019",
+      "tags": {
+        "Identity": "The existing GrafTech solution leveraged local admin accounts and SQL credentials, and the reporting portal was a home-brew identity solution which stored user accounts in a database. Our proposal replaced thos assets with Azure AD for employees and Azure AD B2C for customers.",
+        "Web": "",
+        "PaaS": "Azure IoT Hub was the centerpiece of the modernized approach, with Azure Functions, Azure Storage, Service Bus, and Logic apps orchestrating on the back end.",
+        "IaaS": "",
+        "Code": "The exiting solution had almost all of its logic in SQL stored procedures, including custom business rules for specific clients. Our proposal included moving that logic to .net code and building unit tests to prove the system worked as designed for their myriad business cases.",
+        "Data": "Furnaces feed data to a central respoitory throughout the day, but the existing platform lacked the ability to act on those data. The proposed solution introduced a big data component which would provide real-time reporting and alerting, and create new market opportunites to the client.",
+        "Modernization": "The existing solution relied on email to send data gathered at the furnace to a central repository. The devices they had in the field supported MQTT and Azure IoT Hub natively, so our suggestion took them in that direction.",
+        "DevOps": "I trained the GrafTech IT team on proper DevOps solutions and presented them with a preliminary target state for CI/CD."
+      }
+    },
+    {
+      "role": "Team Lead / Developer",
+      "company": "Save The Children",
+      "via": "Blue Chip Consulting Group",
+      "brief": "",
+      "description": "Save the Children asked us to envision and build a solution to help them track their emergency response efficiency during natural disasters. The solution would replace an Excel spreadsheet which had become too big and cumbersome to open and share across teams. It needed to support team collaboration for data gathering, be easy to access but secure enough to handle sensivtive data, and provide dynamic reporting capabilities which would change with time. I designed a replacement built on the Universal Windows Platform with a back end powered by Azure serverless platform, delivering data into Azure Data Lake for PowerBi reporting. The delivery target was aggressive, with the solution needing to be in place before hurricane season began in August. A big data component rounded out the offering.",
+      "start": "05/2019",
+      "end": "08/2019",
+      "tags": {
+        "Identity": "The application leveraged RBAC based on AAD groups to restrict access to the tool as a whole and to administative screens inside. OAuth secured access to the back end APIs.",
+        "Web": "",
+        "PaaS": "",
+        "IaaS": "",
+        "Code": "The solution was built with UWP and was delivered through the Microsoft Store for Business. The back end ran in Azure, and included an API layer, SQL database and storage account.",
+        "Data": "The solution leveraged Azure Data Factory to pump application metrics to Azure Data Lake which PowerBI reports pulled from.",
+        "Modernization": "The primary driver for the engagement was to help employees who were sharing data via an emailed Excel spreadsheet by providing them with a user-friendly, usable tool which was secure but offered broad, shared access across the organization.",
+        "DevOps": "All aspects of the Azure infrastructure were deployed using a CI/CD process backed by Azure Dev Ops. While the Microsoft Store for Business didn't offer an API-based submission process, the client can still build new versions of the application in the cloud and submit them to the store directly."
+      }
+    },
+    {
+      "role": "SAP Uplift DevOps Engineer",
+      "company": "Walgreens Boots Alliance",
+      "via": "Microsoft Consulting Services",
+      "brief": "Worked with Microsoft SAP SMEs and Azure product groups to pilot early stage migrations of WBA's SAP infrastructure to Azure.",
+      "description": "As a tip-of-the-spear automation engineer on WBA's SAP Azure migration, I worked directly with Microsoft SAP subject matter experts to build tooling which deployed scores of servers to Azure. During testing phases the Microsoft team would leverage this tooling to iterate on deployment specifications. I had the opportunity to work with product teams within Microsoft to help test newer Azure features related to high performance computing and proximity placement groups.",
+      "start": "04/2019",
+      "end": "05/2020",
+      "tags": {
+        "Identity": "The nature of the engagement allowed for individual RBAC access to target subscriptions, so tooling leveraged PowerShell APIs to authenticate end users.",
+        "Web": "",
+        "PaaS": "",
+        "IaaS": "The SAP infrastructure was entirely IaaS and had intricate networking and proximity placement requirements based on SAP deployment specifications.",
+        "Code": "PowerShell was the tool of choice for this engagement, with standards defined in YAML and specifications for VMs gathered in Excel spreadsheets.",
+        "Data": "",
+        "Modernization": "",
+        "DevOps": "The solution was based on PowerShell and ARM templates. Input specifications were gathered in Excel spreadsheets due to the team's historical approach for collaboaration and iteration on VM specifications."
+      }
+    },
+    {
+      "role": "Cloud Readiness Consultant ",
+      "company": "Designer Brands",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Helped Designer Brands inventory internal applications and plan for future modernization efforts as they were moved to Azure.",
+      "description": "Our team was brought in to help DSW move their Windows and Linux servers to the Azure cloud and to prepare the company for a cloud-first posture. My role was to help the team evaluate key internal custom software applications for cloud readiness and to establish a modernization roadmap for those applications which fit the bill.",
+      "start": "02/2019",
+      "end": "04/2019",
+      "tags": {
+        "Identity": "",
+        "Web": "",
+        "PaaS": "",
+        "IaaS": "",
+        "Code": "",
+        "Data": "",
+        "Modernization": "The applications relied heavily on Windows server features such as COM object registration, Windows services, and secret management. We helped the team understand the Azure offering which provided the most appropriate migration path.",
+        "DevOps": "I introduced early-stage release automation for IaaS components based on CSV source file specifications."
+      }
+    },
+    {
+      "role": "App Modernization Architect",
+      "company": "Save The Children",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Envision and Plan engagement for a project to modernize the tool used to collect data on vulnerable children across the world.",
+      "description": "As the project lead for this engagement, I lead 4 weeks of in-person requirements gathering sessions with stakeholders, STC leadership, and STC IT resources which focused on a business-critical application used by STC to collect information on at-risk children across the world. I worked with the impacted parties to document existing application functionality and build a modernization plan for taking it to the cloud. The proposed solution was built on the Universal Windows Platform with a back end powered by a number of offerings from the Azure platform. The multilingual solution would run on 500+ tablets and thousands of PCs in countries across the world, supporting secure data collection, a partially connected workforce, and multiple external systems integrations. A big data component rounded out the offering. The final deliverable from this engagement included a populated & prioritized backlog in Azure Dev Ops which represented the outcome of the application features, key decicsions, and implementation plans for the modernized solution.",
       "start": "11/2018",
-      "end": "09/2019"
+      "end": "02/2019",
+      "tags": {
+        "Identity": "The solution leveraged Azure Active Directory to provide identity services for STC employees and partners. Formal third parties would be onboarded through OAuth federation, including volunteers who would register with AAD B2C.",
+        "Web": "",
+        "PaaS": "Data collection from the field would flow through a series of Azure Functions and Logic Apps, en-route to other systems of record.",
+        "IaaS": "",
+        "Code": "",
+        "Data": "The solution included integrations with the company CRM to feed an Azure Data Lake for real-time and long-term reporting requirements.",
+        "Modernization": "The existing toolset was a potpurri of one-off custom applications, databases, and manual processes. This engagement focused on identifying and documenting this systems and work with key stakeholders across the globe to formulate a cloud-based replacement.",
+        "DevOps": "STC understood that the key to success for a global always-on application is reliable release processes. The solution included the ability to target classes of end users during CI/CD rollouts of application upgrades."
+      }
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Solve Care",
-      "description": "Solve care is a healthcare blockchain platform. I was responsible for the client side development team and architecture of the platform. I was also active in product management team.",
-      "start": "04/2018",
-      "end": "11/2018"
+      "role": "Cloud Application Developer",
+      "company": "BakerHostetler",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Contributed to the back end of a data harvesting application which leveraged third party APIs to aggregate data on court proceedings.",
+      "description": "Provided programming and design support to teammates who were working on a system which aggregates court proceedings data from multiple sources and external APIs and combined in such a way that made durable functions an appealing solution.",
+      "start": "09/2018",
+      "end": "11/2018",
+      "tags": {
+        "Identity": "",
+        "Web": "",
+        "PaaS": "The system ran on Azure App Service and leveraged Key Vault for third party API authentication secrets.",
+        "IaaS": "",
+        "Code": "Durable functions were used to coordinate data aggregation strategies across multiple third party systems.",
+        "Data": "",
+        "Modernization": "",
+        "DevOps": ""
+      }
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Applied Blockchain",
-      "description": "Applied Blockchain built blockchain applications for enterprises and startups. I built 4 full stack blockchain projects during my contract.",
-      "start": "10/2017",
-      "end": "04/2018"
+      "role": "SharePoint Automation Engineer",
+      "company": "L3 Technologies",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Build a custom solution which allowed employees to deploy new SharePoint sites into Azure Government",
+      "description": "I developed a custom SharePoint online provisioning solution in the Azure Government cloud based on Azure Functions. The client had a stong security posture which required custom automation features and enhanced monitoring mechanics to replace components which weren’t available in Azure Government at the time.",
+      "start": "08/2018",
+      "end": "11/2018",
+      "tags": {
+        "Identity": "AAD and SharePoint groups were leveraged to restrict access to key application features, such as request and approval processes.",
+        "Web": "",
+        "PaaS": "The solution leveraged Azure Functions, Azure Logic Apps, and Service Bus",
+        "IaaS": "",
+        "Code": "The tool was built on .net, PowerShell, and the SharePoint APIs.",
+        "Data": "",
+        "Modernization": "",
+        "DevOps": "Azure Government provided challenges with implementing CI/CD processes, but I did deliver scripted/automated deployment packages with every new version of the solution."
+      }
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Dmapper",
-      "description": "Worked as a lead full-stack developer for Cortex which is B2B audit automation software for Deloitte. I was responsible for the architecture and development of the platform, managing development team.",
+      "role": "Team Lead, Systems Integrations",
+      "company": "Bob Evans Restaurants",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Team lead for an engagement which modernized integrations across all external vendors and partners by moving from on-premises scheduled jobs to Azure Functions, Logic Apps, and Dynamics 365.",
+      "description": "In my second engagement with Bob Evans, I was responsible for leading a team of developers as we replaced more than 25 legacy systems integrations with modern solutions built on Azure Logic Apps and Azure Functions with connectivity to Dynamics 365. I designed best-practices solutions for security, application monitoring, and DevOps automation and managed the relationships and expectations across HR and IT business units.",
+      "start": "11/2017",
+      "end": "08/2018",
+      "tags": {
+        "Identity": "Most integrations leveraged AAD for end user management and monitoring, while partner APIs each required their own authentication mechanisms.",
+        "Web": "Some of the integrations had web front ends to allow for user interaction and monitoring. These web apps were hosted alongside the rest of the integration in the same resource group, and ran on Azure App Service.",
+        "PaaS": "The deliverables for this engagement were primarily a collection of Azure Functions and Logic Apps, with Application Insights to track availabilty and uptime. API Management was used for a common API layer. Application Insights was the standard for monitoring uptime and availability.",
+        "IaaS": "Several of the integrations leveraged custom software running across multiple VMs, working together via Azure Service Bus messages and payloads stored in Azure Storage.",
+        "Code": "Integrations were mostly developed in .Net, with a heavy reliance on D365.",
+        "Data": "Many of the integrations were backed by dedicated Azure SQL instances, but the system of record was D365. The integrations ultimately read from or fed data into D365 via custom import processes, triggered by API calls.",
+        "Modernization": "The thrust of this engagement was modernization and a wholesale migration of IT integrations to the cloud.",
+        "DevOps": "The DevOps story grew over time at Bob Evans as the identity offerings in Azure matured during this timeframe. Each integration had an Azure Dev Ops pipeline, as did several shared servicves and APIs."
+      }
+    },
+    {
+      "role": "Team Lead, Member Portal Web Application",
+      "company": "Save The Children",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Lead the development of a tool used by STC teams to improve worldwide collaboration of child sponsorship opportunities.",
+      "description": "Save the Children needed a web site to drive efficiency into the core business processes conducted with globally-distributed fundraising centers. I lead the project from envision and plan through delivery, serving as team leader, tech lead, and project manager. Azure Dev Ops was leveraged to coordinate alignment across our development team, STC business stakeholders and sponsors, and Blue Chip executive leadership.",
+      "start": "04/2017",
+      "end": "04/2017",
+      "tags": {
+        "Identity": "The solution required a multi-tenant AAD implementation to support US and international Azure Active Directories. AAD groups were used to populate application roles which were vlaidated by the API layer.",
+        "Web": "The solution leveraged KnockoutJS with a MVC layer, with the back end protected by OAuth.",
+        "PaaS": "The solution ran almost exclusively on PaaS offerings including App Service, Storage Accounts, API Management, Service Bus, and Azure Web Jobs and Functions.",
+        "IaaS": "The solution included an IaaS component in the form of a stand-alone virtual machine which was used for the work of collecting and zipping up digital assets for downloading.",
+        "Code": "The tool was written in ASP.Net.",
+        "Data": "A daily feed from the system of record for eligible children was used to populate the application database. The solution included a manual process for STC data engineers to pull 'reservations' into the CRM system, giving the team the freedom to perform ad-hoc loads during times of low utilization.",
+        "Modernization": "The tool replaced a complex, ad-hoc, error-prone set of processes which included the use of email, spreadhseets, and manually-created files to collaborate across international offices.",
+        "DevOps": "The entire application was backed by a CI/CD process, running off of Azure DevOps. After launch STC decided to spin down test environments to save money, knowing they could be stood back up in a few minutes via a pipeline."
+      }
+    },
+    {
+      "role": "Cloud Application Development Consultant",
+      "company": "Bob Evans Restaurants",
+      "via": "Blue Chip Consulting Group",
+      "brief": "I helped the Bob Evans development teams understand how to build for a cloud-first future through training presentations and hands-on assistance with POCs.",
+      "description": "During the first stages of Bob Evans' migration to the Azure cloud, I was brought in as a subject matter expert to help development teams from across the Bob Evans organization plan for uplift and modernization scenarios. I provided guidance on development and deployment strategies, performed hands-on coding and training activities, and helped the CTO and a team of directors build migration and staffing forecasts.",
+      "start": "04/2017",
+      "end": "05/2017",
+      "tags": {
+        "Identity": "The identitfy stories in early 2107 weren't very mature yet, but I helped dev teams understand how to move from custom and LDAP authentication methods to Azure Active Directory.",
+        "Web": "I build several web POCs to help the teams understand the role of authentication and CI/CD automation.",
+        "PaaS": "Some application teams were looking for guidance on how to move to PaaS from on-premises VMs. I helped these teams think through the challenges they would face and formulate an approach for the migration. In some cases I helped out by implementing POCs for them.",
+        "IaaS": "Blue Chip had IaaS, identity, and modern workplace engineers on site to assist with lift-and-shift migrations. I helped them with application analysis and decisions on how to move forward.",
+        "Code": "Most of the code I delivered during this engagement was written in .Net, but I also delivered several PowerShell scripts to help Azure subscription owners with deployment and management tasks for things like Azure Dev Ops and service principals.",
+        "Data": "",
+        "Modernization": "This engagement focused entriely on modernization efforts and involved me working with teams to understand what was possible in Azure from a modernization perspective.",
+        "DevOps": "I helped Bob Evans get their Azure Dev Ops setup off the ground after leading the uplift of an on-premises Team Foundation Server. I trained development teams on Git and helped them get started with Gitflow development."
+      }
+    },
+    {
+      "role": "Application Development Consultant",
+      "company": "MPRO",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Helped a smaller non-profit organization understand their options for application modernization and a migration to Azure.",
+      "description": "Project lead and developer on engagement with non-profit healthcare company, including application architecture review, development of PowerShell scripts, and data migration. Established a plan for cloud migration which was adopted in a future engagement. Uncovered security issues with the application which were remedied.",
       "start": "12/2016",
-      "end": "10/2017"
+      "end": "03/2017",
+      "tags": {
+        "Identity": "MRPO was very new to Azure and required assistance with AAD setup and configuration.",
+        "Web": "",
+        "PaaS": "I helped MPRO migrate an existing internal web application to App Service and provided feedback and guidance for uplift strategies.",
+        "IaaS": "",
+        "Code": "",
+        "Data": "",
+        "Modernization": "",
+        "DevOps": ""
+      }
     },
     {
-      "role": "Front End Developer - UI/UX Designer",
-      "company": "GovRight",
-      "description": "GovRight provides citizens the opportunity to understand and contribute to government and legislation. I was responsible for the UX and development of admin interface for the platform.",
-      "start": "11/2015",
-      "end": "04/2016"
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "Freelance",
-      "description": "In the first years of my career, I had the privilege to work with many startups and building my own games and applications.",
-      "start": "04/2008",
-      "end": "01/2016"
+      "role": "Web Developer",
+      "company": "Wendys Restaurants",
+      "via": "Blue Chip Consulting Group",
+      "brief": "Developer on Wendy's Intranet solution",
+      "description": "SharePoint Online application development for a multi-national food service company, including the development of remote event receivers and client side JavaScript frameworks.",
+      "start": "10/2016",
+      "end": "02/2017",
+      "tags": {
+        "Identity": "",
+        "Web": "I ",
+        "PaaS": "",
+        "IaaS": "",
+        "Code": "",
+        "Data": "",
+        "Modernization": "",
+        "DevOps": ""
+      }
     }
   ],
-  "social": [
+  "employment": [{
+      "role": "Senior Solution Architect",
+      "company": "Blue Chip Consulting Group",
+      "description": "I joined Blue Chip Consulting in October of 2016 as a Senior Consultant. In April of 2017 I was promoted to Solution Architect, and in August of 2020 I was promoted to Senior Solution Architect. In addition to my consulting duties, I also contributed directly to the growth of the organization, including: <ul><li>Founding member of the Application Development focus area leadership team</li><li>Established technical interviewing process, including screening and scoring guidelines and feedback mechanisms</li><li>Piloted Azure Lighthouse implementation with key partners to help improve onboarding of our operations teams</li><li>Built a custom DevOps process for development projects which incorperated RAID logs and other Blue Chip key processes</li><li>Lead inventment in adoption of Postman Pro across the application development team with APIs and documentation provided as deliverables across engagements</li><li>As a leader for Blue Chip's 'Geo Growth' team for the Nashville region I was involved in community outreach, brand expansion, and local selling efforts</li></ul>",
+      "start": "10/2016",
+      "end": "06/2021"
+    },
     {
+      "role": "Application Architect / Team Lead",
+      "company": "eDoc4u",
+      "description": "I started with eDoc4u as a senior developer, leading a small team of junior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I designed and have been managing a migration from a multi-tenant monolithic asp.net application to a cloud-based SAAS model with dedicated tenant resources and lower, predictable TCO. I have also become a key contributor toward envisioning and building toward the company’s future.",
+      "start": "11/2013",
+      "end": "10/2016"
+    },
+    {
+      "role": "Partner",
+      "company": "Insario Corporation",
+      "description": "As co-founder of Insario, I worked with my business partner to grow our small business from a fledgling startup to a powerful, focused company who provided technical expertise and business strategy services to American Express as they moved their products and services online. We grew from 2 to 10 employees over the course of 14 years despite economic and tech sector down-turns. Our customers appreciated our ability to help them innovate and deliver web-based tools and marketing material. <p/>Due to overwhelming appreciation and support from American Express business units, Insario was included in the list of 10 preferred technology vendors alongside companies like IBM and Tata consulting.",
+      "start": "06/1999",
+      "end": "01/2013"
+    }
+  ],
+  "social": [{
       "service": "linkedin",
       "url": "https://www.linkedin.com/in/joshkewley"
     },
@@ -285,16 +499,11 @@
     {
       "service": "devto",
       "url": "https://dev.to/jkewley"
-    }
-  ],
-  "role": "Azure Architect",
-  "projects": [
+    },
     {
-      "name": "Gatsby resume starter",
-      "company": "Open source",
-      "description": "Gatsby resume tailwind is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
-      "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
+      "service": "stackoverflow",
+      "url": "https://stackoverflow.com/story/joshkewley"
     }
   ],
-  "fullname": "Josh Kewley"
+  "projects": []
 }
