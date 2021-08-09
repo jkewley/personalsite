@@ -40,6 +40,14 @@
     @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
 }
 
+.exptag {
+    @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+}
+
+.exptag:hover {
+    @apply bg-secondary-500 cursor-pointer shadow;
+}
+
 .footer-social-link {
     @apply text-primary-900 mr-4;
 }
