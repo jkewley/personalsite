@@ -1,6 +1,7 @@
 export { default as Header } from './header';
 export { default as Summary } from './summary';
 export { default as Experience } from './experience';
+export { default as ExperienceTags } from './experience-tag';
 export { default as Projects } from './projects';
 export { default as Skills } from './skills';
 export { default as List } from './list';
