@@ -48,6 +48,7 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Company, name: company, widget: string }
+              - { label: Brief, name: brief, widget: text }
               - { label: Description, name: description, widget: text }
               - { label: Link, name: link, widget: string }
           - label: Skills
