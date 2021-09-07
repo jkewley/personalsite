@@ -13,11 +13,6 @@ function ExperienceTag(props) {
       : 'exptag'
     : 'expTagNA';
 
-  function toggleActive() {
-    setActive(!isActive);
-    props.toggleTagFilter(tagName);
-  }
-
   function handleMouseEnter() {
     if (isTagged) {
       setActive(true);

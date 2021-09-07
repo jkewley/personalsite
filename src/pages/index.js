@@ -10,7 +10,6 @@ import {
   SEO,
   Skills,
   Summary,
-  Timeline,
 } from '../components';
 
 import React from 'react';

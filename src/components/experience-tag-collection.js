@@ -1,19 +1,8 @@
-import React, { useState } from 'react';
-
 import ExperienceTag from './experience-tag';
+import React from 'react';
 
 // bar of tags inside Experience block
 function ExperienceTagCollection(props) {
-  const [filteredItems, setFilteredItems] = useState([]);
-
-  function updateFilteredItems(filterKey) {
-    const newCollection = filteredItems.includes(filterKey)
-      ? filteredItems.filter(i => i !== filterKey)
-      : [...filteredItems, filterKey];
-    setFilteredItems(newCollection);
-    props.applyFilter(newCollection);
-  }
-
   function updateActiveFilter(newValue) {
     props.applyFilter(newValue);
   }

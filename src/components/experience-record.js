@@ -3,16 +3,10 @@ import React, { useState } from 'react';
 import ExperienceTagCollection from './experience-tag-collection';
 
 function ExperienceRecord(props) {
-  const [filteredItems, setFilteredItems] = useState([]);
   const [isFiltered, setIsFiltered] = useState(false);
   const [filteredItem, setFilteredItem] = useState('');
 
   const item = props.experience;
-
-  function updateFilter(newFilter) {
-    setFilteredItems(newFilter);
-    setIsFiltered(newFilter.length > 0);
-  }
 
   function applyFilter(newFilter) {
     setFilteredItem(newFilter);
@@ -38,13 +32,14 @@ function ExperienceRecord(props) {
             <div className="flex flex-col pt-6 gap-y-8">
               <div className="flex-1 -m-4 -mx-6  border-primary-900">
                 <ExperienceTagCollection
-                  setFilter={updateFilter}
                   applyFilter={applyFilter}
                   tags={item.tags}
                 />
               </div>
               <div className="flex-1">
-                <p className="block">{isFiltered ? item.tags[filteredItem] : item.description}</p>
+                <p className="block">
+                  {isFiltered ? item.tags[filteredItem] : item.description}
+                </p>
               </div>
             </div>
           </article>
