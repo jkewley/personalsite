@@ -2,62 +2,89 @@
 @tailwind components;
 
 .btn {
-    @apply text-xs font-bold py-1 px-2 rounded;
+  @apply text-xs font-bold py-1 px-2 rounded;
 }
 
 .btn-secondary {
-    @apply bg-secondary-500 text-white;
+  @apply bg-secondary-500 text-white;
 }
 .btn-secondary:hover {
-    @apply bg-secondary-700
+  @apply bg-secondary-700;
 }
 
 .contact-icon {
-    @apply fill-current w-4 h-4 mr-4 text-secondary-500;
+  @apply fill-current w-4 h-4 mr-4 text-primary-200;
 }
 
 .contact-link {
-    @apply text-sm;
+  @apply text-sm text-primary-200;
 }
 
 .contact-link:hover {
-    @apply text-secondary-500;
+  @apply text-secondary-100;
 }
 
 .section-header {
-    @apply text-primary-500 text-xl border-l-4 border-primary-500 pl-3 font-bold;
+  @apply text-primary-500 text-xl border-l-4 border-secondary-500 pl-3 font-bold;
 }
 
 .item-header {
-    @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700;
+  @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700;
 }
 
 .item-sub {
-    @apply text-neutral-600 tracking-wide text-sm;
+  @apply text-neutral-600 tracking-wide text-sm;
 }
 
 .tag {
-    @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+  @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
 }
 
-.exptag {
-    @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+.exptag,
+.expTagNA,
+.exptagActive {
+  @apply px-2 py-1 border-primary-200 bg-primary-400 text-sm text-white inline-block capitalize font-light w-full;
 }
 
+.expTagNA {
+  @apply bg-primary-200 text-primary-600;
+}
+
+.exptagActive:hover,
 .exptag:hover {
-    @apply bg-secondary-500 cursor-pointer shadow;
+  @apply bg-secondary-300 text-primary-900 cursor-pointer shadow-md;
+}
+
+.exptagActive {
+  @apply bg-secondary-500;
 }
 
 .footer-social-link {
-    @apply text-primary-900 mr-4;
+  @apply text-primary-900 mr-4;
 }
 
 .footer-social-link:hover {
-    @apply text-primary-500;
+  @apply text-primary-500;
 }
 
 .footer-social-icon {
-    @apply h-6 fill-current;
+  @apply h-6 fill-current;
+}
+
+.timeline-img {
+  @apply h-24 w-24 object-cover rounded-full shadow-md border-4 border-white xs:absolute md:mx-auto md:left-0 md:right-0;
+}
+.timeline-container {
+  @apply relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 md:ml-auto md:pl-16;
+}
+.timeline-container-left {
+  @apply md:ml-0 md:mr-auto md:pl-0 md:pr-16;
+}
+.timeline-pointer {
+  @apply absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-white xs:top-11 xs:left-26 md:left-14;
+}
+.timeline-pointer-left {
+  @apply md:left-auto md:right-14;
 }
 
 @tailwind utilities;

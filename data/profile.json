@@ -162,11 +162,9 @@
       "start": "08/2020",
       "end": "06/2021",
       "tags": {
+        "Cloud": "The application was deployed to a Linux app service instance and leveraged private endpoint support across Azure SQL and Azure storage accounts. Application Insights and Azure Data Factory also played important roles in the deliverable's makeup.",
+        "Code": "The Angular application was built on Kroger's standard of Angular 8. It leveraged ngrx for state management and MSAL for OAuth user flows. The application's API layer was written in Java 8 on top of Spring Boot. Logging to application insights via Log4j provided support teams with key performance and user metrics. Hundreds of unit tests provide the team with a safety net during refactorings and pull request validations.",
         "Identity": "Our migration piloted AAD authentication for employee accounts within Kroger Pharmacy. I combined a claims mapping policy with directory extensions and application roles to provide a familiar single sign on login experience using authorization code flow with PKCE.",
-        "Web": "The Angular application was built on Kroger's standard of Angular 8. It leveraged ngrx for state management and MSAL for OAuth user flows.",
-        "PaaS": "The application was deployed to a Linux app service instance and leveraged private endpoint support across Azure SQL and Azure storage accounts. Application Insights and Azure Data Factory also played important roles in the deliverable's makeup.",
-        "IaaS": "",
-        "Code": "The application's API layer was written in Java 8 on top of Spring Boot. Logging to application insights via Log4j provided support teams with key performance and user metrics. Hundreds of unit tests provide the team with a safety net during refactorings and pull request validations.",
         "Data": "The legacy version of the application was built on SSIS powered ETL flows. During the modernization effort these flows were hardened and adapted to Azure monitoring platforms. The data representing newer metrics was sourced via Azure Data Lake and Azure Data Factory.",
         "Modernization": "Originally written as a Cold Fusion app running internally on IIS, the task was to modernize the application by moving to Java and Linux hosting environment in Azure. Kroger had aggressive goals for an MVP release based on the close of their fiscal calendar. An agile approach allowed us to work with stakeholders to prioritize modernization efforts and application improvements where they were needed most, while helping us build out a detailed backlog to help shape future development efforts.",
         "DevOps": "I contributed to the initial Terraform recipies for hub-and-spoke App Service Plan deployments and helped the in-house DevOps team understand DevOps authorization and deployment strategies. We also built a custom pipeline approach for database deployments based on Entity Framework's approach."
@@ -181,11 +179,9 @@
       "start": "02/2020",
       "end": "09/2020",
       "tags": {
-        "Identity": "I helped WBA design and implement their chained pipeline approach to separate the rights of template authors from service accounts, providing a least privilege solution.",
-        "Web": "",
-        "PaaS": "",
-        "IaaS": "Applications being migrated by the Microsoft teams were lift and shift Windows and Linux machines. Deployment variables for selections such as disk sizes, networking features, local agent installs and post-deployment scripting/hardening were implemented as templates with integration hooks to support ever-expanding requirements.",
+        "Cloud": "Applications being migrated by the Microsoft teams were lift and shift Windows and Linux machines. Deployment variables for selections such as disk sizes, networking features, local agent installs and post-deployment scripting/hardening were implemented as templates with integration hooks to support ever-expanding requirements.",
         "Code": "ARM templates which enforce WBA deployment standards and naming conventions are abstracted from modernization teams through the use of JSON-based specification documents. Custom JSON schemas provided intellisense, validation, and inline implementation instructions when using VS code to build templates.",
+        "Identity": "I helped WBA design and implement their chained pipeline approach to separate the rights of template authors from service accounts, providing a least privilege solution.",
         "Data": "",
         "Modernization": "Most of the applications being migrated by the Microsoft engineers were lift-and-shift, but the my deliverable left application teams with a WBA-approved CI/CD process for their underlying infrastructure.",
         "DevOps": "The approach leveraged Azure Dev Ops APIs, Powershell Core, and the Azure CLI to allow migration teams to stand up a new pipeline, provision baseline application specifications, and establish a backlog to track their progress. Linked repositories provide implementation isolation from migration work. A versioning strategy ensured older pipeline implementations will continue to run, even as the deployment schemas and pipelines mature and new features and strutures are introduced."
@@ -200,18 +196,16 @@
       "start": "01/2020",
       "end": "02/2020",
       "tags": {
-        "Identity": "The migration plan deliverable included adoption of Azure Active Directory for administrative accounts and Azure RBAC.",
-        "Web": "Hershey sites ran on internal Linux VMs. The proposed solution took them to Azure's Linux-based app service offering with regional vnet connectivity for on-premises support teams.",
-        "PaaS": "I determined that many of the LAMP projects were ready for a low-impact migration to Azure App Service on Linux paired with Azure Storage and Azure's CDN offerings for static assets.",
-        "IaaS": "The primary booking engine was built on top of a CMS system which required deployment to a Linux VM, rather than a PaaS offering. I worked with the CMS vendor to determine the appropriate SKUs and deployment architecture for an Azure presence.",
+        "Cloud": "I determined that many of the LAMP projects were ready for a low-impact migration to Azure App Service on Linux paired with Azure Storage and Azure's CDN offerings for static assets. The primary booking engine was built on top of a CMS system which required deployment to a Linux VM, rather than a PaaS offering. I worked with the CMS vendor to determine the appropriate SKUs and deployment architecture for an Azure presence.",
         "Code": "",
+        "Identity": "The migration plan deliverable included adoption of Azure Active Directory for administrative accounts and Azure RBAC.",
         "Data": "",
-        "Modernization": "Hershey management was eager to move away from having to manage virtual machines and network architecture. Our final design moved all but a single workload to PaaS offerings and introduced a governance model to set them on a path toward better security and tracabilty.",
+        "Modernization": "Hershey management was eager to move away from having to manage virtual machines and network architecture. Our final design moved all but a single workload to PaaS offerings with regional vnet connectivity and introduced a governance model to set them on a path toward better security and tracabilty.",
         "DevOps": "I trained the Hershey Entertainment development teams on proper DevOps solutions and presented them with a preliminary target state for CI/CD. Prior to the engagement, the team used mapped drives and SSH to pushed new versions to production from developer laptops."
       }
     },
     {
-      "role": "Azure Dev Ops Divestiture Consultant",
+      "role": "Azure Dev Ops Automation Consultant",
       "company": "NC4",
       "via": "Blue Chip Consulting Group",
       "brief": "A divestiture required carving out code, processes, backlog items, and identites for several Azure Dev Ops projects, rehoming them in a new organization.",
@@ -219,11 +213,9 @@
       "start": "12/2019",
       "end": "09/2019",
       "tags": {
-        "Identity": "The divestiture required connecting identities across two Active Directories to retain historical ownership records.",
-        "Web": "",
-        "PaaS": "",
-        "IaaS": "",
+        "Cloud": "",
         "Code": "PowerShell scripts and the Azure CLI were written to migrate many of the legacy data points, including identities, custom queries, and custom processes.",
+        "Identity": "The divestiture required connecting identities across two Active Directories to retain historical ownership records.",
         "Data": "",
         "Modernization": "",
         "DevOps": "This engagement operated completely withing Azure Dev Ops and leveraged several of the core REST APIs to help with the migration and validation processes."
@@ -238,11 +230,9 @@
       "start": "09/2019",
       "end": "10/2019",
       "tags": {
-        "Identity": "The existing GrafTech solution leveraged local admin accounts and SQL credentials, and the reporting portal was a home-brew identity solution which stored user accounts in a database. Our proposal replaced thos assets with Azure AD for employees and Azure AD B2C for customers.",
-        "Web": "",
-        "PaaS": "Azure IoT Hub was the centerpiece of the modernized approach, with Azure Functions, Azure Storage, Service Bus, and Logic apps orchestrating on the back end.",
-        "IaaS": "",
+        "Cloud": "Azure IoT Hub was the centerpiece of the modernized approach, with Azure Functions, Azure Storage, Service Bus, and Logic apps orchestrating on the back end.",
         "Code": "The exiting solution had almost all of its logic in SQL stored procedures, including custom business rules for specific clients. Our proposal included moving that logic to .net code and building unit tests to prove the system worked as designed for their myriad business cases.",
+        "Identity": "The existing GrafTech solution leveraged local admin accounts and SQL credentials, and the reporting portal was a home-brew identity solution which stored user accounts in a database. Our proposal replaced thos assets with Azure AD for employees and Azure AD B2C for customers.",
         "Data": "Furnaces feed data to a central respoitory throughout the day, but the existing platform lacked the ability to act on those data. The proposed solution introduced a big data component which would provide real-time reporting and alerting, and create new market opportunites to the client.",
         "Modernization": "The existing solution relied on email to send data gathered at the furnace to a central repository. The devices they had in the field supported MQTT and Azure IoT Hub natively, so our suggestion took them in that direction.",
         "DevOps": "I trained the GrafTech IT team on proper DevOps solutions and presented them with a preliminary target state for CI/CD."
@@ -257,11 +247,9 @@
       "start": "05/2019",
       "end": "08/2019",
       "tags": {
-        "Identity": "The application leveraged RBAC based on AAD groups to restrict access to the tool as a whole and to administative screens inside. OAuth secured access to the back end APIs.",
-        "Web": "",
-        "PaaS": "",
-        "IaaS": "",
+        "Cloud": "",
         "Code": "The solution was built with UWP and was delivered through the Microsoft Store for Business. The back end ran in Azure, and included an API layer, SQL database and storage account.",
+        "Identity": "The application leveraged RBAC based on AAD groups to restrict access to the tool as a whole and to administative screens inside. OAuth secured access to the back end APIs.",
         "Data": "The solution leveraged Azure Data Factory to pump application metrics to Azure Data Lake which PowerBI reports pulled from.",
         "Modernization": "The primary driver for the engagement was to help employees who were sharing data via an emailed Excel spreadsheet by providing them with a user-friendly, usable tool which was secure but offered broad, shared access across the organization.",
         "DevOps": "All aspects of the Azure infrastructure were deployed using a CI/CD process backed by Azure Dev Ops. While the Microsoft Store for Business didn't offer an API-based submission process, the client can still build new versions of the application in the cloud and submit them to the store directly."
@@ -276,11 +264,9 @@
       "start": "04/2019",
       "end": "05/2020",
       "tags": {
-        "Identity": "The nature of the engagement allowed for individual RBAC access to target subscriptions, so tooling leveraged PowerShell APIs to authenticate end users.",
-        "Web": "",
-        "PaaS": "",
-        "IaaS": "The SAP infrastructure was entirely IaaS and had intricate networking and proximity placement requirements based on SAP deployment specifications.",
+        "Cloud": "The SAP infrastructure was entirely IaaS and had intricate networking and proximity placement requirements based on SAP deployment specifications.",
         "Code": "PowerShell was the tool of choice for this engagement, with standards defined in YAML and specifications for VMs gathered in Excel spreadsheets.",
+        "Identity": "The nature of the engagement allowed for individual RBAC access to target subscriptions, so tooling leveraged PowerShell APIs to authenticate end users.",
         "Data": "",
         "Modernization": "",
         "DevOps": "The solution was based on PowerShell and ARM templates. Input specifications were gathered in Excel spreadsheets due to the team's historical approach for collaboaration and iteration on VM specifications."
@@ -295,11 +281,9 @@
       "start": "02/2019",
       "end": "04/2019",
       "tags": {
-        "Identity": "",
-        "Web": "",
-        "PaaS": "",
-        "IaaS": "",
+        "Cloud": "",
         "Code": "",
+        "Identity": "",
         "Data": "",
         "Modernization": "The applications relied heavily on Windows server features such as COM object registration, Windows services, and secret management. We helped the team understand the Azure offering which provided the most appropriate migration path.",
         "DevOps": "I introduced early-stage release automation for IaaS components based on CSV source file specifications."
@@ -314,11 +298,9 @@
       "start": "11/2018",
       "end": "02/2019",
       "tags": {
-        "Identity": "The solution leveraged Azure Active Directory to provide identity services for STC employees and partners. Formal third parties would be onboarded through OAuth federation, including volunteers who would register with AAD B2C.",
-        "Web": "",
-        "PaaS": "Data collection from the field would flow through a series of Azure Functions and Logic Apps, en-route to other systems of record.",
-        "IaaS": "",
+        "Cloud": "Data collection from the field would flow through a series of Azure Functions and Logic Apps, en-route to other systems of record.",
         "Code": "",
+        "Identity": "The solution leveraged Azure Active Directory to provide identity services for STC employees and partners. Formal third parties would be onboarded through OAuth federation, including volunteers who would register with AAD B2C.",
         "Data": "The solution included integrations with the company CRM to feed an Azure Data Lake for real-time and long-term reporting requirements.",
         "Modernization": "The existing toolset was a potpurri of one-off custom applications, databases, and manual processes. This engagement focused on identifying and documenting this systems and work with key stakeholders across the globe to formulate a cloud-based replacement.",
         "DevOps": "STC understood that the key to success for a global always-on application is reliable release processes. The solution included the ability to target classes of end users during CI/CD rollouts of application upgrades."
@@ -333,11 +315,9 @@
       "start": "09/2018",
       "end": "11/2018",
       "tags": {
-        "Identity": "",
-        "Web": "",
-        "PaaS": "The system ran on Azure App Service and leveraged Key Vault for third party API authentication secrets.",
-        "IaaS": "",
+        "Cloud": "The system ran on Azure App Service and leveraged Key Vault for third party API authentication secrets.",
         "Code": "Durable functions were used to coordinate data aggregation strategies across multiple third party systems.",
+        "Identity": "",
         "Data": "",
         "Modernization": "",
         "DevOps": ""
@@ -352,11 +332,9 @@
       "start": "08/2018",
       "end": "11/2018",
       "tags": {
-        "Identity": "AAD and SharePoint groups were leveraged to restrict access to key application features, such as request and approval processes.",
-        "Web": "",
-        "PaaS": "The solution leveraged Azure Functions, Azure Logic Apps, and Service Bus",
-        "IaaS": "",
+        "Cloud": "The solution leveraged Azure Functions, Azure Logic Apps, and Service Bus",
         "Code": "The tool was built on .net, PowerShell, and the SharePoint APIs.",
+        "Identity": "AAD and SharePoint groups were leveraged to restrict access to key application features, such as request and approval processes.",
         "Data": "",
         "Modernization": "",
         "DevOps": "Azure Government provided challenges with implementing CI/CD processes, but I did deliver scripted/automated deployment packages with every new version of the solution."
@@ -371,11 +349,9 @@
       "start": "11/2017",
       "end": "08/2018",
       "tags": {
+        "Cloud": "The deliverables for this engagement were primarily a collection of Azure Functions and Logic Apps, with Application Insights to track availabilty and uptime. API Management was used for a common API layer. Application Insights was the standard for monitoring uptime and availability. Several of the integrations leveraged custom software running across multiple VMs, working together via Azure Service Bus messages and payloads stored in Azure Storage.",
+        "Code": "Integrations were mostly developed in .Net, with a heavy reliance on D365. Some of the integrations had web front ends to allow for user interaction and monitoring. These web apps were hosted alongside the rest of the integration in the same resource group, and ran on Azure App Service.",
         "Identity": "Most integrations leveraged AAD for end user management and monitoring, while partner APIs each required their own authentication mechanisms.",
-        "Web": "Some of the integrations had web front ends to allow for user interaction and monitoring. These web apps were hosted alongside the rest of the integration in the same resource group, and ran on Azure App Service.",
-        "PaaS": "The deliverables for this engagement were primarily a collection of Azure Functions and Logic Apps, with Application Insights to track availabilty and uptime. API Management was used for a common API layer. Application Insights was the standard for monitoring uptime and availability.",
-        "IaaS": "Several of the integrations leveraged custom software running across multiple VMs, working together via Azure Service Bus messages and payloads stored in Azure Storage.",
-        "Code": "Integrations were mostly developed in .Net, with a heavy reliance on D365.",
         "Data": "Many of the integrations were backed by dedicated Azure SQL instances, but the system of record was D365. The integrations ultimately read from or fed data into D365 via custom import processes, triggered by API calls.",
         "Modernization": "The thrust of this engagement was modernization and a wholesale migration of IT integrations to the cloud.",
         "DevOps": "The DevOps story grew over time at Bob Evans as the identity offerings in Azure matured during this timeframe. Each integration had an Azure Dev Ops pipeline, as did several shared servicves and APIs."
@@ -390,11 +366,9 @@
       "start": "04/2017",
       "end": "04/2017",
       "tags": {
+        "Cloud": "The solution ran almost exclusively on PaaS offerings including App Service, Storage Accounts, API Management, Service Bus, and Azure Web Jobs and Functions.It included an IaaS component in the form of a stand-alone virtual machine which was used for the work of collecting and zipping up digital assets for downloading.",
+        "Code": "The tool was written in ASP.Net and utilized KnockoutJS with an OAuth protected MVC layer.",
         "Identity": "The solution required a multi-tenant AAD implementation to support US and international Azure Active Directories. AAD groups were used to populate application roles which were vlaidated by the API layer.",
-        "Web": "The solution leveraged KnockoutJS with a MVC layer, with the back end protected by OAuth.",
-        "PaaS": "The solution ran almost exclusively on PaaS offerings including App Service, Storage Accounts, API Management, Service Bus, and Azure Web Jobs and Functions.",
-        "IaaS": "The solution included an IaaS component in the form of a stand-alone virtual machine which was used for the work of collecting and zipping up digital assets for downloading.",
-        "Code": "The tool was written in ASP.Net.",
         "Data": "A daily feed from the system of record for eligible children was used to populate the application database. The solution included a manual process for STC data engineers to pull 'reservations' into the CRM system, giving the team the freedom to perform ad-hoc loads during times of low utilization.",
         "Modernization": "The tool replaced a complex, ad-hoc, error-prone set of processes which included the use of email, spreadhseets, and manually-created files to collaborate across international offices.",
         "DevOps": "The entire application was backed by a CI/CD process, running off of Azure DevOps. After launch STC decided to spin down test environments to save money, knowing they could be stood back up in a few minutes via a pipeline."
@@ -409,11 +383,9 @@
       "start": "04/2017",
       "end": "05/2017",
       "tags": {
+        "Cloud": "Some application teams were looking for guidance on how to move to PaaS from on-premises VMs. I helped these teams think through the challenges they would face and formulate an approach for the migration. In some cases I helped out by implementing POCs for them. Blue Chip had IaaS, identity, and modern workplace engineers on site to assist with lift-and-shift migrations. I helped them with application analysis and decisions on how to move forward.",
+        "Code": "I build several web POCs to help the teams understand the role of authentication and CI/CD automation. Most of the code I delivered during this engagement was written in .Net, but I also delivered several PowerShell scripts to help Azure subscription owners with deployment and management tasks for things like Azure Dev Ops and service principals.",
         "Identity": "The identitfy stories in early 2107 weren't very mature yet, but I helped dev teams understand how to move from custom and LDAP authentication methods to Azure Active Directory.",
-        "Web": "I build several web POCs to help the teams understand the role of authentication and CI/CD automation.",
-        "PaaS": "Some application teams were looking for guidance on how to move to PaaS from on-premises VMs. I helped these teams think through the challenges they would face and formulate an approach for the migration. In some cases I helped out by implementing POCs for them.",
-        "IaaS": "Blue Chip had IaaS, identity, and modern workplace engineers on site to assist with lift-and-shift migrations. I helped them with application analysis and decisions on how to move forward.",
-        "Code": "Most of the code I delivered during this engagement was written in .Net, but I also delivered several PowerShell scripts to help Azure subscription owners with deployment and management tasks for things like Azure Dev Ops and service principals.",
         "Data": "",
         "Modernization": "This engagement focused entriely on modernization efforts and involved me working with teams to understand what was possible in Azure from a modernization perspective.",
         "DevOps": "I helped Bob Evans get their Azure Dev Ops setup off the ground after leading the uplift of an on-premises Team Foundation Server. I trained development teams on Git and helped them get started with Gitflow development."
@@ -428,11 +400,9 @@
       "start": "12/2016",
       "end": "03/2017",
       "tags": {
-        "Identity": "MRPO was very new to Azure and required assistance with AAD setup and configuration.",
-        "Web": "",
-        "PaaS": "I helped MPRO migrate an existing internal web application to App Service and provided feedback and guidance for uplift strategies.",
-        "IaaS": "",
+        "Cloud": "I helped MPRO migrate an existing internal web application to App Service and provided feedback and guidance for uplift strategies.",
         "Code": "",
+        "Identity": "MRPO was very new to Azure and required assistance with AAD setup and configuration.",
         "Data": "",
         "Modernization": "",
         "DevOps": ""
@@ -447,37 +417,58 @@
       "start": "10/2016",
       "end": "02/2017",
       "tags": {
-        "Identity": "",
-        "Web": "I ",
-        "PaaS": "",
-        "IaaS": "",
+        "Cloud": "",
         "Code": "",
+        "Identity": "",
         "Data": "",
         "Modernization": "",
         "DevOps": ""
       }
     }
   ],
-  "employment": [{
+  "employment": [
+    {
+      "role": "Senior Solution Architect",
+      "company": "Core BTS",
+      "description": "Blue Chip Consulting Group was acquired by Core BTS in October of 2020",
+      "end": "06/2021",
+      "start": "10/2020"
+    },
+    {
       "role": "Senior Solution Architect",
       "company": "Blue Chip Consulting Group",
-      "description": "I joined Blue Chip Consulting in October of 2016 as a Senior Consultant. In April of 2017 I was promoted to Solution Architect, and in August of 2020 I was promoted to Senior Solution Architect. In addition to my consulting duties, I also contributed directly to the growth of the organization, including: <ul><li>Founding member of the Application Development focus area leadership team</li><li>Established technical interviewing process, including screening and scoring guidelines and feedback mechanisms</li><li>Piloted Azure Lighthouse implementation with key partners to help improve onboarding of our operations teams</li><li>Built a custom DevOps process for development projects which incorperated RAID logs and other Blue Chip key processes</li><li>Lead inventment in adoption of Postman Pro across the application development team with APIs and documentation provided as deliverables across engagements</li><li>As a leader for Blue Chip's 'Geo Growth' team for the Nashville region I was involved in community outreach, brand expansion, and local selling efforts</li></ul>",
-      "start": "10/2016",
-      "end": "06/2021"
+      "description": "In January of 2020 I was promoted to Senior Solution Architect.",
+      "comment": "In addition to my consulting duties, I also contributed directly to the growth of the organization, including: <ul><li>Founding member of the Application Development focus area leadership team</li><li>Established technical interviewing process, including screening and scoring guidelines and feedback mechanisms</li><li>Piloted Azure Lighthouse implementation with key partners to help improve onboarding of our operations teams</li><li>Built a custom DevOps process for development projects which incorperated RAID logs and other Blue Chip key processes</li><li>Lead inventment in adoption of Postman Pro across the application development team with APIs and documentation provided as deliverables across engagements</li><li>As a leader for Blue Chip's 'Geo Growth' team for the Nashville region I was involved in community outreach, brand expansion, and local selling efforts",
+      "end": "10/2020",
+      "start": "01/2020"
+    },
+    {
+      "role": "Solution Architect",
+      "company": "Blue Chip Consulting Group",
+      "description": "In April of 2017 I was promoted to Solution Architect.",
+      "end": "01/2020",
+      "start": "04/2017"
+    },
+    {
+      "role": "Senior Consultant",
+      "company": "Blue Chip Consulting Group",
+      "description": "I joined Blue Chip Consulting in October of 2016 as a Senior Consultant.",
+      "end": "04/2017",
+      "start": "10/2016"
     },
     {
       "role": "Application Architect / Team Lead",
       "company": "eDoc4u",
       "description": "I started with eDoc4u as a senior developer, leading a small team of junior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I designed and have been managing a migration from a multi-tenant monolithic asp.net application to a cloud-based SAAS model with dedicated tenant resources and lower, predictable TCO. I have also become a key contributor toward envisioning and building toward the company’s future.",
-      "start": "11/2013",
-      "end": "10/2016"
+      "end": "10/2016",
+      "start": "11/2013"
     },
     {
       "role": "Partner",
       "company": "Insario Corporation",
       "description": "As co-founder of Insario, I worked with my business partner to grow our small business from a fledgling startup to a powerful, focused company who provided technical expertise and business strategy services to American Express as they moved their products and services online. We grew from 2 to 10 employees over the course of 14 years despite economic and tech sector down-turns. Our customers appreciated our ability to help them innovate and deliver web-based tools and marketing material. <p/>Due to overwhelming appreciation and support from American Express business units, Insario was included in the list of 10 preferred technology vendors alongside companies like IBM and Tata consulting.",
-      "start": "06/1999",
-      "end": "01/2013"
+      "end": "01/2013",
+      "start": "06/1999"
     }
   ],
   "social": [{
@@ -504,6 +495,5 @@
       "service": "stackoverflow",
       "url": "https://stackoverflow.com/story/joshkewley"
     }
-  ],
-  "projects": []
+  ]
 }
