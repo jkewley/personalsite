@@ -1,9 +1,46 @@
-const { colors } = require('tailwindcss/defaultTheme');
-
+const { colors: defaultColors } = require('tailwindcss/colors');
+const colors = {
+  ...defaultColors,
+  ...{
+    gray: {
+      100: '#f7fafc',
+      200: '#edf2f7',
+      300: '#e2e8f0',
+      400: '#cbd5e0',
+      500: '#a0aec0',
+      600: '#718096',
+      700: '#4a5568',
+      800: '#2d3748',
+      900: '#1a202c',
+    },
+    orange: {
+      100: '#fffaf0',
+      200: '#feebc8',
+      300: '#fbd38d',
+      400: '#f6ad55',
+      500: '#ed8936',
+      600: '#dd6b20',
+      700: '#c05621',
+      800: '#9c4221',
+      900: '#7b341e',
+    },
+    blue: {
+      100: '#ebf8ff',
+      200: '#bee3f8',
+      300: '#90cdf4',
+      400: '#63b3ed',
+      500: '#4299e1',
+      600: '#3182ce',
+      700: '#2b6cb0',
+      800: '#2c5282',
+      900: '#2a4365',
+    },
+  },
+};
 module.exports = {
   theme: {
     extend: {
-      colors:{
+      colors: {
         DearmonSunshine: {
           '50': '#fffbf5',
           '100': '#fef8eb',
@@ -99,16 +136,49 @@ module.exports = {
           '700': '#98b0b6',
           '800': '#798d91',
           '900': '#637377',
-        }
-      }
+        },
+      },
+      inset: {
+        '17': '68px',
+        '26': '104px',
+      },
     },
+    screens: {
+      xs: '480px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px'
+    },
+    minWidth: {
+      '0': '0',
+      '1/4': '25%',
+      '1/3': '33%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
+     },
     colors: {
       primary: colors.blue,
       secondary: colors.orange,
       neutral: colors.gray,
       white: '#FFF',
-    }
+    },
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+    },
   },
-  variants: {},
+  variants: {
+    borderWidth: ['responsive', 'last', 'hover', 'focus'],
+  },
   plugins: [],
 };
