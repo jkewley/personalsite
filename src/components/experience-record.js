@@ -44,26 +44,8 @@ function ExperienceRecord(props) {
                 />
               </div>
               <div className="flex-1">
-                <p className="hidden lg:block">
-                  {isFiltered ? item.tags[filteredItem] : item.description}
-                </p>
-                {/*
-                {filteredItems.length > 0 && (
-                  <ul>
-                    {filteredItems.map(filt => (
-                      <li>{item.tags[filt]}</li>
-                    ))}
-                  </ul>
-                )
-                }
-                */}
+                <p className="block">{isFiltered ? item.tags[filteredItem] : item.description}</p>
               </div>
-              {/* <div className="flex-1 -m-4 -my-1">
-                <ExperienceTagCollection
-                  setFilter={updateFilter}
-                  tags={item.tags}
-                />
-              </div> */}
             </div>
           </article>
         </div>
