@@ -36,10 +36,15 @@ function ExperienceRecord(props) {
                   tags={item.tags}
                 />
               </div>
-              <div className="flex-1">
-                <p className="block">
-                  {isFiltered ? item.tags[filteredItem] : item.description}
-                </p>
+              <div className="flex-1 relative">
+                <div
+                  className={isFiltered ? 'invisible' : 'visible'}
+                  dangerouslySetInnerHTML={{ __html: item.description }}
+                ></div>
+                <div
+                  className={isFiltered ? 'visible top-0 left-0 absolute' : 'visible'}
+                  dangerouslySetInnerHTML={{ __html: item.tags[filteredItem] }}
+                ></div>
               </div>
             </div>
           </article>
