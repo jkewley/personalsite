@@ -48,7 +48,7 @@
 }
 
 .expTagNA {
-  @apply bg-primary-100 text-primary-600;
+  @apply bg-primary-200 text-primary-600;
 }
 
 .exptagActive:hover,

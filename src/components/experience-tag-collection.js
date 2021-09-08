@@ -9,7 +9,7 @@ function ExperienceTagCollection(props) {
 
   return (
     <section>
-      <div className="flex flex-row items-stretch flex-wrap">
+      <div className="flex flex-row items-stretch flex-wrap border-l">
         {props.tags &&
           Object.entries(props.tags).map(([key, value]) => (
             // value &&
