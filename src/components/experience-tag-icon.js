@@ -3,7 +3,7 @@ import CodeIcon from '../assets/tags/code.svg';
 import DataIcon from '../assets/tags/data.svg';
 import DevvopsIcon from '../assets/tags/devops.svg';
 import IdentityIcon from '../assets/tags/identity.svg';
-import ModernizationIcon from '../assets/tags/modernization.svg';
+import ModernizeIcon from '../assets/tags/modernize.svg';
 import React from 'react';
 
 const ExperienceTagIcon = ({ type }) => {
@@ -18,8 +18,8 @@ const ExperienceTagIcon = ({ type }) => {
       return <DevvopsIcon className="float-left" />;
     case 'identity':
       return <IdentityIcon className="float-left" />;
-    case 'modernization':
-      return <ModernizationIcon className="float-left" />;
+    case 'modernize':
+      return <ModernizeIcon className="float-left" />;
 
     default:
       return null;

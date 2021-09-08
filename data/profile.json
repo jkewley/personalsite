@@ -166,7 +166,7 @@
         "Code": "The Angular application was built on Kroger's standard of Angular 8. It leveraged ngrx for state management and MSAL for OAuth user flows. The application's API layer was written in Java 8 on top of Spring Boot. Logging to application insights via Log4j provided support teams with key performance and user metrics. Hundreds of unit tests provide the team with a safety net during refactorings and pull request validations.",
         "Identity": "Our migration piloted AAD authentication for employee accounts within Kroger Pharmacy. I combined a claims mapping policy with directory extensions and application roles to provide a familiar single sign on login experience using authorization code flow with PKCE.",
         "Data": "The legacy version of the application was built on SSIS powered ETL flows. During the modernization effort these flows were hardened and adapted to Azure monitoring platforms. The data representing newer metrics was sourced via Azure Data Lake and Azure Data Factory.",
-        "Modernization": "Originally written as a Cold Fusion app running internally on IIS, the task was to modernize the application by moving to Java and Linux hosting environment in Azure. Kroger had aggressive goals for an MVP release based on the close of their fiscal calendar. An agile approach allowed us to work with stakeholders to prioritize modernization efforts and application improvements where they were needed most, while helping us build out a detailed backlog to help shape future development efforts.",
+        "Modernize": "Originally written as a Cold Fusion app running internally on IIS, the task was to modernize the application by moving to Java and Linux hosting environment in Azure. Kroger had aggressive goals for an MVP release based on the close of their fiscal calendar. An agile approach allowed us to work with stakeholders to prioritize modernization efforts and application improvements where they were needed most, while helping us build out a detailed backlog to help shape future development efforts.",
         "DevOps": "I contributed to the initial Terraform recipies for hub-and-spoke App Service Plan deployments and helped the in-house DevOps team understand DevOps authorization and deployment strategies. We also built a custom pipeline approach for database deployments based on Entity Framework's approach."
       }
     },
@@ -183,7 +183,7 @@
         "Code": "ARM templates which enforced WBA deployment standards and naming conventions were abstracted from modernization teams through the use of JSON-based specification documents. Custom JSON schemas provided intellisense, validation, and inline implementation instructions when using VS code to build deployment specifications.",
         "Identity": "I helped WBA design and implement their chained pipeline approach to separate the rights of template authors from service accounts, providing a least privilege solution.",
         "Data": "",
-        "Modernization": "Most of the applications being migrated by the Microsoft engineers were lift-and-shift, but the solution left application teams with a WBA-approved CI/CD process for their underlying infrastructure.",
+        "Modernize": "Most of the applications being migrated by the Microsoft engineers were lift-and-shift, but the solution left application teams with a WBA-approved CI/CD process for their underlying infrastructure.",
         "DevOps": "The approach leveraged Azure Dev Ops APIs, Powershell Core, and the Azure CLI to allow migration teams to stand up a new pipeline, provision baseline application specifications, and establish a backlog to track their progress. Linked repositories provide implementation isolation from migration work. A versioning strategy ensured older pipeline implementations will continue to run, even as the deployment schemas and pipelines matured and new features and strutures were introduced."
       }
     },
@@ -200,7 +200,7 @@
         "Code": "",
         "Identity": "The migration plan deliverable included adoption of Azure Active Directory for administrative accounts and Azure RBAC.",
         "Data": "",
-        "Modernization": "Hershey management was eager to move away from having to manage virtual machines and network architecture. Our final design moved all but a single workload to PaaS offerings with regional vnet connectivity and introduced a governance model to set them on a path toward better security and traceabilty.",
+        "Modernize": "Hershey management was eager to move away from having to manage virtual machines and network architecture. Our final design moved all but a single workload to PaaS offerings with regional vnet connectivity and introduced a governance model to set them on a path toward better security and traceabilty.",
         "DevOps": "I trained the Hershey Entertainment development teams on proper DevOps solutions and presented them with a preliminary target state for CI/CD. Prior to the engagement, the team used mapped drives and SSH to push new versions to production from developer laptops."
       }
     },
@@ -217,7 +217,7 @@
         "Code": "PowerShell scripts leveraging the Azure CLI were written to migrate many of the legacy data points, including identities, custom queries, and custom processes.",
         "Identity": "The organization reorg required connecting identities across two Active Directories to retain historical ownership records.",
         "Data": "",
-        "Modernization": "",
+        "Modernize": "",
         "DevOps": "This engagement operated completely withing Azure Dev Ops and leveraged several of the core REST APIs to help with the migration and validation processes."
       }
     },
@@ -234,7 +234,7 @@
         "Code": "The exiting solution had almost all of its logic in SQL stored procedures, including custom business rules for specific clients. Our proposal included moving that logic to code and building unit tests to prove the system worked as designed for their myriad business cases.",
         "Identity": "The existing GrafTech solution leveraged local admin accounts and SQL credentials, and the reporting portal was a home-brew identity solution which stored user accounts in a database. The roadmap replaced those assets with Azure AD for employees and Azure AD B2C for customers.",
         "Data": "Furnaces fed data to a central respoitory throughout the day, but the existing platform lacked the ability to read and read to incoming information. The proposed solution introduced a big data component which would provide real-time reporting and alerting, creating new market opportunites for the client.",
-        "Modernization": "The existing solution relied on email to send data gathered at the furnace to a central repository. The devices they had in the field supported MQTT and Azure IoT Hub natively, so our suggestion took them in that direction.",
+        "Modernize": "The existing solution relied on email to send data gathered at the furnace to a central repository. The devices they had in the field supported MQTT and Azure IoT Hub natively, so our suggestion took them in that direction.",
         "DevOps": "I trained the GrafTech IT team on proper DevOps solutions and presented them with a preliminary target state for CI/CD."
       }
     },
@@ -251,7 +251,7 @@
         "Code": "The product was built on UWP with an API layer written in .Net. Production builds were distributed internally via the Microsoft Store for Business.",
         "Identity": "The application leveraged RBAC based on AAD groups to restrict access to the tool as a whole and to administative screens inside. OAuth secured access to the back end APIs.",
         "Data": "The solution leveraged Azure Data Factory to pump application metrics to Azure Data Lake which Power BI reports read from.",
-        "Modernization": "The primary driver for the engagement was to help employees who were sharing data via an emailed Excel spreadsheet by providing them with a user-friendly, usable tool which was secure but offered broad, shared access across the organization.",
+        "Modernize": "The primary driver for the engagement was to help employees who were sharing data via an emailed Excel spreadsheet by providing them with a user-friendly, usable tool which was secure but offered broad, shared access across the organization.",
         "DevOps": "All aspects of the Azure infrastructure were deployed using a CI/CD process backed by Azure Dev Ops. While the Microsoft Store for Business didn't offer an API-based submission process, the client can still build new versions of the application in the cloud and submit them to the store directly. Non-production builds were distributed via sideloading with automatic updates from versions delivered to Azure App Service."
       }
     },
@@ -268,7 +268,7 @@
         "Code": "PowerShell was the tool of choice for this engagement, with standards defined in YAML and specifications for VMs gathered in Excel spreadsheets.",
         "Identity": "The nature of the engagement allowed for individual RBAC access to target subscriptions, so tooling leveraged PowerShell APIs to authenticate end users.",
         "Data": "",
-        "Modernization": "",
+        "Modernize": "",
         "DevOps": "The solution was based on PowerShell and ARM templates. Input specifications were gathered in Excel spreadsheets due to the team's historical approach for collaboaration and iteration on VM specifications."
       }
     },
@@ -285,7 +285,7 @@
         "Code": "This engagement included code analysis across several large internal business applications, some of which used very on-premises approaches to connectivity and identity. As part of my work, I helped the teams understand what would be required to modernize the code.",
         "Identity": "",
         "Data": "",
-        "Modernization": "The applications relied heavily on Windows server features such as COM object registration, Windows services, and secret management. We helped the team understand the Azure offering which provided the most appropriate migration path.",
+        "Modernize": "The applications relied heavily on Windows server features such as COM object registration, Windows services, and secret management. We helped the team understand the Azure offering which provided the most appropriate migration path.",
         "DevOps": "I introduced early-stage release automation for IaaS components based on CSV source file specifications."
       }
     },
@@ -302,7 +302,7 @@
         "Code": "The proposed solution was to be built on the Universal Windows Platform with a back end powered by a number of offerings from the Azure platform.",
         "Identity": "The solution leveraged Azure Active Directory to provide identity services for STC employees and partners. Formal third parties would be onboarded through OAuth federation, including volunteers who would register with AAD B2C.",
         "Data": "The solution included integrations with the company CRM to feed an Azure Data Lake for real-time and long-term reporting requirements.",
-        "Modernization": "The existing toolset was a blend of one-off custom applications, databases, and manual processes. This engagement focused on identifying and documenting this systems and work with key stakeholders across the globe to formulate a cloud-based replacement.",
+        "Modernize": "The existing toolset was a blend of one-off custom applications, databases, and manual processes. This engagement focused on identifying and documenting this systems and work with key stakeholders across the globe to formulate a cloud-based replacement.",
         "DevOps": "STC understood that the key to success for a global always-on application is reliable release processes. The solution included the ability to target classes of end users during CI/CD rollouts of application upgrades."
       }
     },
@@ -319,7 +319,7 @@
         "Code": "Durable functions with a fan-out pattern were used to collect data points from across third party data providers, aggregate the data, and save it to Azure SQL.",
         "Identity": "",
         "Data": "The solution produced aggregated data points with client-specified data matching algorithms. The end result was a scoring mechanism for the predictability of court case outcomes across different legal fields.",
-        "Modernization": "",
+        "Modernize": "",
         "DevOps": "The solution was built and deployed via Azure Dev Ops Pipelines."
       }
     },
@@ -336,7 +336,7 @@
         "Code": "The tool was built on .Net, PowerShell, and the SharePoint APIs.",
         "Identity": "AAD and SharePoint groups were leveraged to restrict access to key application features, such as request and approval processes.",
         "Data": "",
-        "Modernization": "",
+        "Modernize": "",
         "DevOps": "Azure Government provided challenges with implementing CI/CD processes, but I did deliver scripted/automated deployment packages with every new version of the solution."
       }
     },
@@ -353,7 +353,7 @@
         "Code": "Integrations were mostly developed in .Net, with a heavy reliance on D365. Some of the integrations had web front ends to allow for user interaction and monitoring. These web apps were hosted alongside the rest of the integration in the same resource group, and ran on Azure App Service.",
         "Identity": "Most integrations leveraged AAD for end user management and monitoring, while partner APIs each required their own authentication mechanisms.",
         "Data": "Many of the integrations were backed by dedicated Azure SQL instances, but the system of record was D365. The integrations ultimately read from or fed data into D365 via custom import processes, triggered by API calls.",
-        "Modernization": "The thrust of this engagement was modernization and a wholesale migration of IT integrations to the cloud.",
+        "Modernize": "The thrust of this engagement was modernization and a wholesale migration of IT integrations to the cloud.",
         "DevOps": "The DevOps story grew over time at Bob Evans as the identity offerings in Azure matured during this timeframe. Each integration had an Azure Dev Ops pipeline, as did several shared services and APIs."
       }
     },
@@ -370,7 +370,7 @@
         "Code": "The tool was written in ASP.Net and utilized KnockoutJS with an OAuth protected MVC layer.",
         "Identity": "The solution required a multi-tenant AAD implementation to support US and international Azure Active Directories. AAD groups were used to populate application roles which were vlaidated by the API layer.",
         "Data": "A daily feed from the system of record for eligible children was used to populate the application database. The solution included a manual process for STC data engineers to pull 'reservations' into the CRM system, giving the team the freedom to perform ad-hoc loads during times of low utilization.",
-        "Modernization": "The tool replaced a complex, ad-hoc, error-prone set of processes which included the use of email, spreadhseets, and manually-created files to collaborate across international offices.",
+        "Modernize": "The tool replaced a complex, ad-hoc, error-prone set of processes which included the use of email, spreadhseets, and manually-created files to collaborate across international offices.",
         "DevOps": "The entire application was backed by a CI/CD process, running off of Azure DevOps. After launch STC decided to spin down test environments to save money, knowing they could be stood back up in a few minutes via a pipeline."
       }
     },
@@ -387,7 +387,7 @@
         "Code": "I build several web POCs to help the teams understand the role of authentication and CI/CD automation. Most of the code I delivered during this engagement was written in .Net, but I also delivered several PowerShell scripts to help Azure subscription owners with deployment and management tasks for things like Azure Dev Ops and service principals.",
         "Identity": "The identitfy stories in early 2107 weren't very mature yet, but I helped dev teams understand how to move from custom and LDAP authentication methods to Azure Active Directory.",
         "Data": "",
-        "Modernization": "This engagement focused entriely on modernization efforts and involved me working with teams to understand what was possible in Azure from a modernization perspective.",
+        "Modernize": "This engagement focused entriely on modernization efforts and involved me working with teams to understand what was possible in Azure from a modernization perspective.",
         "DevOps": "I helped Bob Evans get their Azure Dev Ops setup off the ground after leading the uplift of an on-premises Team Foundation Server. I trained development teams on Git and helped them get started with Gitflow development."
       }
     },
@@ -404,7 +404,7 @@
         "Code": "I helped harden the security posture of the existing application and worked with the client to create a backlog of opportunities to improve security and application performance.",
         "Identity": "MRPO was very new to Azure and required assistance with AAD setup and configuration.",
         "Data": "I migrated the data from an on-premises SQL server to SQL Azure, cleaning out bad and erronous data in the process.",
-        "Modernization": "I helped modernize the security aspect of the authentication mechanism by migrating the user base to AAD-backed identities.",
+        "Modernize": "I helped modernize the security aspect of the authentication mechanism by migrating the user base to AAD-backed identities.",
         "DevOps": ""
       }
     },
@@ -421,7 +421,7 @@
         "Code": "The Intranet was hosted in SharePoint Online, so I had to deploy and develop from a custom SharePoint Online instance which made for a long inner dev loop. This lead me to write a blog post about <a href='https://dev.to/jkewley/use-fiddler-to-live-test-javascript-changes-to-your-web-site-1eeb' target='_blank'>using Fiddler to live-test JavaScript changes without deploying them</a>",
         "Identity": "Employees authentication leveraged an existing Azure AD. SharePoint Groups were used to restrict access to administrative areas, including those which provided the admin screens I developed for daily newsletter management.",
         "Data": "",
-        "Modernization": "",
+        "Modernize": "",
         "DevOps": ""
       }
     }
