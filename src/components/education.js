@@ -4,8 +4,8 @@ const Education = ({ data }) => (
   <section className="mb-5">
     <h1 className="section-header mb-5">Education</h1>
     {data &&
-      data.map(item => (
-        <div className="my-2" key={item.degree}>
+      data.map((item, i) => (
+        <div className="my-2" key={item.degree + i}>
           <h2 className="item-header text-lg">{item.degree}</h2>
           <h3 className="item-sub">{item.institution}</h3>
           <p className="item-sub right-0 font-semibold text-primary-500">

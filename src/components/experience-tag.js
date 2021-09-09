@@ -29,7 +29,6 @@ function ExperienceTag(props) {
   return (
     <div className="flex-1 border-r min-w-1/3 xl:min-w-0 whitespace-nowrap">
       <a
-        href
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={targetClass}

@@ -28,9 +28,9 @@ const Footer = ({ social }) => (
     </div>
     {social && (
       <div className="flex items-center justify-center ml-2">
-        {social.map(item => (
+        {social.map((item, i) => (
           <a
-            key={item.service}
+            key={item.service + i}
             className="footer-social-link"
             href={item.url}
             target="_blank"

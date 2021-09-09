@@ -6,12 +6,12 @@ function Timeline({ data }) {
       <div className="lg:flex">
         <h1 className="section-header lg:pr-8">Roles</h1>
       </div>
-      <div class="container">
+      <div className="container">
         {data &&
           data.map((role, i) => (
-            <div className="py-4">
+            <div className="py-4" key={role.role + i}>
               <h1 className="item-header">{role.role}</h1>
-              <div className="border-l pl-2  border-primary-600">
+              <div className="border-l pl-2 border-primary-600">
                 <h3 className="item-sub">{role.company}</h3>
                 <span className="item-sub flex-1 right-0 font-semibold text-primary-500">
                   {role.start} - {role.end}

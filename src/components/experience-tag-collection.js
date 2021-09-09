@@ -11,9 +11,10 @@ function ExperienceTagCollection(props) {
     <section>
       <div className="flex flex-row items-stretch flex-wrap border-l">
         {props.tags &&
-          Object.entries(props.tags).map(([key, value]) => (
+          Object.entries(props.tags).map(([key, value], index) => (
             // value &&
             <ExperienceTag
+              key={key + index}
               tagName={key}
               value={value}
               toggleTagFilter={updateActiveFilter}

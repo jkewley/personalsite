@@ -14,9 +14,9 @@ function ExperienceRecord(props) {
   }
 
   return (
-    <div class="flex">
-      <div class="py-4 flex-grow">
-        <div class="bg-primary-100 px-4 py-1 rounded-t-2xl shadow-md hover:shadow-xl transition duration-200">
+    <div className="flex">
+      <div className="py-4 flex-grow">
+        <div className="bg-primary-100 px-4 py-1 rounded-t-2xl shadow-md hover:shadow-xl transition duration-200">
           <article className="mt-5" key={`${item.company}`}>
             <div className="flex flex-row items-center">
               <div className="item-header flex-1">{item.role}</div>
