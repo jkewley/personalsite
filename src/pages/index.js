@@ -14,13 +14,12 @@ import {
 } from '../components';
 
 import React from 'react';
-import SocialIcon from '../components/social_icon';
 import resume from '../../data/profile';
 
 const Home = () => (
-  <main className="antialiased text-neutral-900 bg-neutral-200 min-h-screen sm:p-5">
+  <main className="antialiased text-neutral-900 bg-neutral-200 min-h-screen sm:p-5 print:m-0 print:p-0">
     <SEO title="Resume" />
-    <div className="container mx-auto shadow bg-white">
+    <div className="container mx-auto shadow bg-white print:max-w-full">
       <div className="bg-primary-600 py-5 px-10 shadow-md">
         <Header
           contacts={resume.contact}
