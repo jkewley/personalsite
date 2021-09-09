@@ -138,7 +138,7 @@
       "institution": "James Madison University",
       "degree": "",
       "start": "1992",
-      "end": "1992"
+      "end": "1993"
     },
     {
       "institution": "Scottsdale Community College",
@@ -150,7 +150,7 @@
       "institution": "Arizona State University",
       "degree": "",
       "start": "1995",
-      "end": "1995"
+      "end": "1996"
     }
   ],
   "experience": [{
@@ -430,14 +430,14 @@
     {
       "role": "Senior Solution Architect",
       "company": "Core BTS",
-      "description": "Blue Chip Consulting Group was acquired by Core BTS in October of 2020",
+      "description": "Blue Chip Consulting Group was acquired by Core BTS in October of 2020.",
       "end": "06/2021",
       "start": "10/2020"
     },
     {
       "role": "Senior Solution Architect",
       "company": "Blue Chip Consulting Group",
-      "description": "In January of 2020 I was promoted to Senior Solution Architect.",
+      "description": "In January of 2020 I was promoted to Senior Solution Architect. My responsibilities expanded to include Blue Chip brand development in Nashville, focus area oversight and direction, and tip-of-the-spear engagements with new clients.",
       "comment": "In addition to my consulting duties, I also contributed directly to the growth of the organization, including: <ul><li>Founding member of the Application Development focus area leadership team</li><li>Established technical interviewing process, including screening and scoring guidelines and feedback mechanisms</li><li>Piloted Azure Lighthouse implementation with key partners to help improve onboarding of our operations teams</li><li>Built a custom DevOps process for development projects which incorperated RAID logs and other Blue Chip key processes</li><li>Lead inventment in adoption of Postman Pro across the application development team with APIs and documentation provided as deliverables across engagements</li><li>As a leader for Blue Chip's 'Geo Growth' team for the Nashville region I was involved in community outreach, brand expansion, and local selling efforts",
       "end": "10/2020",
       "start": "01/2020"
@@ -445,28 +445,28 @@
     {
       "role": "Solution Architect",
       "company": "Blue Chip Consulting Group",
-      "description": "In April of 2017 I was promoted to Solution Architect.",
+      "description": "In April of 2017 I was promoted to Solution Architect. My responsibilities expanded to include practice area leadership, hiring and interviewing strategy development, writing rough order of magnitude and statement of work documents, and engagement technical oversight.",
       "end": "01/2020",
       "start": "04/2017"
     },
     {
       "role": "Senior Consultant",
       "company": "Blue Chip Consulting Group",
-      "description": "I joined Blue Chip Consulting in October of 2016 as a Senior Consultant.",
+      "description": "I joined Blue Chip Consulting in October of 2016 as a Senior Consultant. Blue Chip appealed to me because of the company's focus on Microsoft Azure and the opportunity to build greenfield projects cloud-first. My responsibilities included client interaction, lead developer roles, and career development for my peers.",
       "end": "04/2017",
       "start": "10/2016"
     },
     {
       "role": "Application Architect / Team Lead",
       "company": "eDoc4u",
-      "description": "I started with eDoc4u as a senior developer, leading a small team of junior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I designed and have been managing a migration from a multi-tenant monolithic asp.net application to a cloud-based SAAS model with dedicated tenant resources and lower, predictable TCO. I have also become a key contributor toward envisioning and building toward the company’s future.",
+      "description": "I started with eDoc4u as a senior developer, leading a small team of junior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I spearheaded a migration from a multi-tenant monolithic asp.net application to a cloud-based SaaS model with dedicated tenant resources and lower, predictable TCO.",
       "end": "10/2016",
       "start": "11/2013"
     },
     {
-      "role": "Partner",
+      "role": "Technical Partner",
       "company": "Insario Corporation",
-      "description": "As co-founder of Insario, I worked with my business partner to grow our small business from a fledgling startup to a powerful, focused company who provided technical expertise and business strategy services to American Express as they moved their products and services online. We grew from 2 to 10 employees over the course of 14 years despite economic and tech sector down-turns. Our customers appreciated our ability to help them innovate and deliver web-based tools and marketing material. <p/>Due to overwhelming appreciation and support from American Express business units, Insario was included in the list of 10 preferred technology vendors alongside companies like IBM and Tata consulting.",
+      "description": "As co-founder of Insario, I worked to grow our small business from a fledgling startup to an influential partner for American Express as they moved their products and services online, evben through the bust of the dot-com bubble. Due to overwhelming appreciation and support from internal business units, Insario was included in the list of 10 preferred technology vendors alongside companies like IBM and Tata Consulting.",
       "end": "01/2013",
       "start": "06/1999"
     }
