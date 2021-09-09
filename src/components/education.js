@@ -8,7 +8,7 @@ const Education = ({ data }) => (
         <div className="my-2" key={item.degree}>
           <h2 className="item-header text-lg">{item.degree}</h2>
           <h3 className="item-sub">{item.institution}</h3>
-          <p className="text-sm text-neutral-500 font-light">
+          <p className="item-sub right-0 font-semibold text-primary-500">
             {item.start} - {item.end}
           </p>
         </div>
