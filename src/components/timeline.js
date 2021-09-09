@@ -2,82 +2,24 @@ import React from 'react';
 
 function Timeline({ data }) {
   return (
-    <section>
+    <section className="mb-5">
       <div className="lg:flex">
         <h1 className="section-header lg:pr-8">Roles</h1>
       </div>
       <div class="container">
-        <div
-          class="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17
-        md:mx-auto md:right-0 md:left-0"
-        ></div>
-        <div class="relative z-10">
-          <img
-            src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
-            alt=""
-            class="timeline-img"
-          />
-          <div class="timeline-container">
-            <div class="timeline-pointer" aria-hidden="true"></div>
-            <div class="bg-white p-6 rounded-md shadow-md">
-              <span class="font-bold text-indigo-600 text-sm tracking-wide">
-                Jan 2021
-              </span>
-              <h1 class="text-2xl font-bold pt-1">An amazing travel</h1>
-              <p class="pt-1">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-                iste suscipit reiciendis, perferendis vel consequuntur
-                cupiditate ad commodi provident, sapiente veniam sed autem.
-              </p>
+        {data &&
+          data.map((role, i) => (
+            <div className="py-4">
+              <h1 className="item-header">{role.role}</h1>
+              <div className="border-l pl-2  border-primary-600">
+                <h3 className="item-sub">{role.company}</h3>
+                <span className="item-sub flex-1 right-0 font-semibold text-primary-500">
+                  {role.start} - {role.end}
+                </span>
+                <div className="text-sm">{role.description}</div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="relative z-10">
-          <img
-            src="https://images.pexels.com/photos/3223552/pexels-photo-3223552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
-            alt=""
-            class="timeline-img"
-          />
-          <div class="timeline-container timeline-container-left">
-            <div
-              class="timeline-pointer timeline-pointer-left"
-              aria-hidden="true"
-            ></div>
-            <div class="bg-white p-6 rounded-md shadow-md">
-              <span class="font-bold text-indigo-600 text-sm tracking-wide">
-                Aug 2020
-              </span>
-              <h1 class="text-2xl font-bold pt-1">A trip far away</h1>
-              <p class="pt-1">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-                iste suscipit reiciendis, perferendis vel consequuntur
-                cupiditate ad commodi provident, sapiente veniam sed
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="relative z-10">
-          <img
-            src="https://images.pexels.com/photos/2906807/pexels-photo-2906807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
-            alt=""
-            class="timeline-img"
-          />
-          <div class="timeline-container">
-            <div class="timeline-pointer" aria-hidden="true"></div>
-            <div class="bg-white p-6 rounded-md shadow-md">
-              <span class="font-bold text-indigo-600 text-sm tracking-wide">
-                March 2020
-              </span>
-              <h1 class="text-2xl font-bold pt-1">Solo Trip</h1>
-              <p class="pt-1">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-                iste suscipit reiciendis, perferendis vel consequuntur
-                cupiditate ad commodi provident, sapiente veniam sed autem,
-                perspiciatis
-              </p>
-            </div>
-          </div>
-        </div>
+          ))}
       </div>
     </section>
   );
