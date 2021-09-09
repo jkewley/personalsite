@@ -10,9 +10,11 @@ import {
   SEO,
   Skills,
   Summary,
+  Timeline,
 } from '../components';
 
 import React from 'react';
+import SocialIcon from '../components/social_icon';
 import resume from '../../data/profile';
 
 const Home = () => (
@@ -30,10 +32,10 @@ const Home = () => (
       <div className="border-b border-neutral-300 pb-2 my-5 py-5 px-10 lg:flex">
         <div className="lg:w-2/3 lg:pr-8">
           {resume.experience && <Experience data={resume.experience} />}
-          {/* {resume.employment && <Timeline data={resume.employment} />} */}
           {resume.projects && <Projects data={resume.projects} />}
         </div>
         <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
+          {resume.employment && <Timeline data={resume.employment} />}
           {resume.skills && <Skills data={resume.skills} />}
           {resume.education && <Education data={resume.education} />}
           {resume.sidebar &&
