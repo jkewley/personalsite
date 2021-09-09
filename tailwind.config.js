@@ -138,6 +138,9 @@ module.exports = {
           '900': '#637377',
         },
       },
+      screens: {
+        'print': {'raw': 'print'},
+      },
       inset: {
         '17': '68px',
         '26': '104px',
@@ -162,6 +165,7 @@ module.exports = {
       primary: colors.blue,
       secondary: colors.orange,
       neutral: colors.gray,
+      current: colors.blue,
       white: '#FFF',
     },
     fontSize: {
