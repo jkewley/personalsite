@@ -4,9 +4,7 @@ import React from 'react';
 function Experience({ data }) {
   return (
     <section>
-      <div className="flex">
-        <h1 className="section-header lg:pr-8 text-primary-500">Experience</h1>
-      </div>
+      <h1 className="section-header">Experience</h1>
       {data &&
         data.map((item, i) => (
           <ExperienceRecord

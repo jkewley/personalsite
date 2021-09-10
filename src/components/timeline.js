@@ -3,9 +3,7 @@ import React from 'react';
 function Timeline({ data }) {
   return (
     <section className="mb-5">
-      <div className="lg:flex">
-        <h1 className="section-header lg:pr-8">Roles</h1>
-      </div>
+      <h1 className="section-header">Roles</h1>
       <div className="container">
         {data &&
           data.map((role, i) => (

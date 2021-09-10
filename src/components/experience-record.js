@@ -21,7 +21,7 @@ function ExperienceRecord(props) {
             <div className="flex flex-row items-center">
               <div className="item-header flex-1">{item.role}</div>
               <div>
-                <h3 className="item-sub flex-1 right-0 font-semibold text-primary-500">
+                <h3 className="item-sub flex-1 right-0 font-semibold text-primary-400">
                   {item.start} - {item.end || 'PRESENT'}
                 </h3>
               </div>
@@ -30,7 +30,7 @@ function ExperienceRecord(props) {
               <b>{item.company}</b> via <i>{item.via}</i>
             </h3>
             <div className="flex flex-col pt-6 gap-y-8">
-              <div className="flex-1 -m-4 -mx-6  border-primary-900">
+              <div className="flex-1 -m-4 -mx-6 border-primary-900">
                 <ExperienceTagCollection
                   applyFilter={applyFilter}
                   tags={item.tags}

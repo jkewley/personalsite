@@ -26,19 +26,19 @@
 }
 
 .section-header {
-  @apply text-primary-500 text-xl border-l-4 border-secondary-500 pl-3 font-bold;
+  @apply text-primary-600 text-xl font-bold border-l-4 border-secondary-500 pl-3;
 }
 
 .item-header {
-  @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700;
+  @apply text-neutral-900 text-lg font-bold tracking-tight leading-relaxed;
 }
 
 .item-sub {
-  @apply text-neutral-600 tracking-wide text-sm;
+  @apply text-neutral-600 text-sm tracking-wide;
 }
 
 .tag {
-  @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+  @apply px-2 py-1 mr-2 mb-2 bg-primary-400 text-sm text-white inline-block capitalize font-light rounded;
 }
 
 .exptag,
