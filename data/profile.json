@@ -437,7 +437,7 @@
     {
       "role": "Senior Solution Architect",
       "company": "Blue Chip Consulting Group",
-      "description": "In January of 2020 I was promoted to Senior Solution Architect. My responsibilities expanded to include Blue Chip brand development in Nashville, focus area oversight and direction, and tip-of-the-spear engagements with new clients.",
+      "description": "In January of 2020 I was promoted to Senior Solution Architect. My responsibilities broadened to include Blue Chip brand development in Nashville, focus area oversight and direction, and tip-of-the-spear engagements with new clients.",
       "comment": "In addition to my consulting duties, I also contributed directly to the growth of the organization, including: <ul><li>Founding member of the Application Development focus area leadership team</li><li>Established technical interviewing process, including screening and scoring guidelines and feedback mechanisms</li><li>Piloted Azure Lighthouse implementation with key partners to help improve onboarding of our operations teams</li><li>Built a custom DevOps process for development projects which incorperated RAID logs and other Blue Chip key processes</li><li>Lead inventment in adoption of Postman Pro across the application development team with APIs and documentation provided as deliverables across engagements</li><li>As a leader for Blue Chip's 'Geo Growth' team for the Nashville region I was involved in community outreach, brand expansion, and local selling efforts",
       "end": "10/2020",
       "start": "01/2020"
@@ -445,7 +445,7 @@
     {
       "role": "Solution Architect",
       "company": "Blue Chip Consulting Group",
-      "description": "In April of 2017 I was promoted to Solution Architect. My responsibilities expanded to include practice area leadership, hiring and interviewing strategy development, writing rough order of magnitude and statement of work documents, and engagement technical oversight.",
+      "description": "In April of 2017 I was promoted to Solution Architect. My responsibilities expanded to include practice area leadership, technical talent acquisition strategy development, writing rough orders of magnitude and statements of work, and engagement technical oversight.",
       "end": "01/2020",
       "start": "04/2017"
     },
@@ -459,7 +459,7 @@
     {
       "role": "Application Architect / Team Lead",
       "company": "eDoc4u",
-      "description": "I started with eDoc4u as a senior developer, leading a small team of junior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I spearheaded a migration from a multi-tenant monolithic asp.net application to a cloud-based SaaS model with dedicated tenant resources and lower, predictable TCO.",
+      "description": "I started with eDoc4u as a senior developer, leading a small team of junior and senior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I spearheaded a migration from a multi-tenant monolithic asp.net application to a cloud-based SaaS model with dedicated tenant resources and lower, predictable TCO.",
       "end": "10/2016",
       "start": "11/2013"
     },
