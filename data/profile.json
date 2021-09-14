@@ -6,7 +6,7 @@
   },
   "fullname": "Josh Kewley",
   "role": "Azure Architect",
-  "summary": "I'm an experienced Azure Architect with a Microsoft-focused development background and a track record of helping businesses of all sizes plan for, migrate, and modernize their workloads in the Azure cloud. As a consultant, my background as a small business owner has helped me relate to the goals of the clients I've served. I'm an Azure fanatic and automation enthusiast looking for an opportunity to apply my experience with team leadership, software development, and Microsoft Azure at an organization which focuses on quality of delivery.",
+  "summary": "I'm an experienced Azure Architect with a Microsoft-focused development background and a track record of helping businesses of all sizes plan for, migrate, and modernize their workloads as they move to the cloud. I'm an Azure fanatic and automation enthusiast looking for an opportunity to apply my experience with team leadership, software development, and Microsoft Azure at an organization which focuses on quality of delivery.",
   "skills": [{
       "title": "Azure",
       "type": "percent",
@@ -111,16 +111,16 @@
           "name": "Azure Dev Ops"
         },
         {
-          "name": "Docker"
+          "name": "Azure Resource Manager"
+        },
+        {
+          "name": "Azure CLI"
         },
         {
           "name": "Terraform"
         },
         {
           "name": "Powershell"
-        },
-        {
-          "name": "Azure CLI"
         },
         {
           "name": "MS SQL"
@@ -158,7 +158,7 @@
       "company": "Kroger Pharmacy",
       "via": "Blue Chip Consulting Group",
       "brief": "Technical lead for Kroger Pharmacy's first Azure deployment. We migrated a Cold Fusion web app to Java and authentication mechanisms from LDAP / SiteMinder to Azure Active Directory.",
-      "description": "As a tech lead for the spearhead project with Kroger Pharmacy, I led a team in the modernization of a LOB Cold Fusion web application. Our team collaborated with Kroger Pharmacy IT to bring their first architecture to the cloud which featured private networking features, Linux PaaS services, and Terraform CI/CD processes. In addition, I delivered a reference architecture and claims mapping strategies for Angular applications with Java back ends built on top of Azure Active Directory authentication. I helped shape naming convention guidelines for the broader Kroger organization based on work I had done over the years with other organizations who were new to Azure. Our team delivery was celebrated inside Kroger, leading to millions of dollars in additional multi-year contract work.",
+      "description": "As a tech lead for the spearhead project with Kroger Pharmacy, I led a team in the modernization of a LOB Cold Fusion web application. Our team collaborated with Kroger Pharmacy IT to bring their first non-trivial workload to the cloud which featured private networking features, Linux PaaS services, and Terraform CI/CD processes. In addition, I delivered a reference architecture and claims mapping strategies for Angular applications with Java back ends built on top of Azure Active Directory authentication. I helped shape naming convention guidelines for the broader Kroger organization based on work I had done over the years with other organizations who were new to Azure. Our team delivery was celebrated inside Kroger, leading to millions of dollars in additional multi-year contract work.",
       "start": "08/2020",
       "end": "06/2021",
       "tags": {
@@ -175,7 +175,7 @@
       "company": "Walgreens Boots Alliance",
       "via": "Microsoft Consulting Services",
       "brief": "Built custom tooling to support DevOps processes used by Microsoft's internal IaaS application migration teams (LEAP).",
-      "description": "In a stand-alone role within WBA, I was responsible for designing the DevOps processes leveraged by IaaS-focused engineers on Microsoft's LEAP team to lift and shift hundreds of applications into Azure. The solution featured private build agents, application onboarding and pipeline creation automation, and a domain specific language which abstracted the technical requirements of the underlying Azure architecture, allowing Microsoft engineers to remain focused on application inventories without having to be fully knowledgeable of WBA's security, architecture, and deployment requirements. I also became a key policy contributor for Azure naming conventions leveraged by WBA teams across the globe.",
+      "description": "In a stand-alone role within WBA, I designed the DevOps processes leveraged by IaaS-focused engineers on Microsoft's LEAP team to lift and shift hundreds of applications into Azure. The solution featured private build agents, application onboarding and pipeline creation automation, and a domain specific language which abstracted the technical requirements of the underlying Azure architecture, allowing Microsoft engineers to remain focused on application inventories without having to be fully knowledgeable of WBA's security, architecture, and deployment requirements. I also became a key policy contributor for Azure naming conventions leveraged by WBA teams across the globe.",
       "start": "02/2020",
       "end": "09/2020",
       "tags": {
@@ -209,7 +209,7 @@
       "company": "NC4",
       "via": "Blue Chip Consulting Group",
       "brief": "A divestiture required carving out code, processes, backlog items, and identites for several Azure Dev Ops projects, rehoming them in a new organization.",
-      "description": "NC4 sold off a portion of their business based on an application which another team at Blue Chip built. I was brought in to migrate projects, backlogs, code, and user accounts in Azure Dev Ops to a new organization as part of the reorganization. The migration included custom scripts which leveraged Azure Dev Ops APIs to pump data across organizations and a third-party tool to migrate an intact work item history. This work inspired the post I wrote explaining how to  <a href='https://dev.to/jkewley/migrate-azure-devops-work-item-queries-to-a-new-organization-2ogb' target='_blank'>Migrate Azure DevOps work item queries to a new organization</a>.",
+      "description": "NC4 wanted help splitting off a portion of their business which was built around a web application built by another team at Blue Chip. I was brought in to migrate projects, backlogs, code, and user accounts in Azure Dev Ops to the new organization as part of the divestiture. The migration included custom scripts which leveraged Azure Dev Ops APIs to pump data across organizations and a third-party tool to migrate an intact work item history. This work inspired the post I wrote explaining how to  <a href='https://dev.to/jkewley/migrate-azure-devops-work-item-queries-to-a-new-organization-2ogb' target='_blank'>Migrate Azure DevOps work item queries to a new organization</a>.",
       "start": "09/2019",
       "end": "12/2019",
       "tags": {
@@ -243,7 +243,7 @@
       "company": "Save The Children",
       "via": "Blue Chip Consulting Group",
       "brief": "",
-      "description": "Save the Children found themselves in dire need of a rapidly developed product to help them better track their emergency response efficiency during natural disasters. They were looking to replace an Excel spreadsheet which had become too big and cumbersome to open and share across teams. It needed to support team collaboration for data gathering, be easy to access but secure enough to handle sensitive data, and provide dynamic reporting capabilities which would change with time. I designed and led the development of a replacement built on the Universal Windows Platform with a back end powered by Azure serverless platform, delivering data into Azure Data Lake for Power BI reporting. The delivery target was aggressive, with the solution needing to be in place before hurricane season began in August.",
+      "description": "Save the Children found themselves in dire need of a rapidly developed product to better track their emergency response efficiency during natural disasters. They were looking to replace an Excel spreadsheet which had become too big and cumbersome to open and share across teams. The new solution needed to support collaboration for data gathering, role-based access to screens and data, and offer dynamic reporting capabilities which would change with time. I designed and led the development of a replacement built on the Universal Windows Platform with a back end powered by Azure serverless platform, delivering data into Azure Data Lake for Power BI reporting. The delivery timeline was aggressive, with the solution needing to be in place before hurricane season began in August.",
       "start": "05/2019",
       "end": "08/2019",
       "tags": {
@@ -277,7 +277,7 @@
       "company": "Designer Brands",
       "via": "Blue Chip Consulting Group",
       "brief": "Helped Designer Brands inventory internal applications and plan for future modernization efforts as they were moved to Azure.",
-      "description": "Our team was brought in to help DSW move their Windows and Linux servers to the Azure cloud and to prepare the company for a cloud-first posture. My role was to help the team evaluate key internal custom software applications for cloud readiness and to establish a modernization roadmap for those applications which fit the bill.",
+      "description": "Our team was brought in to help DSW move their Windows and Linux servers to the Azure cloud and to prepare the company for a cloud-first posture. I helped the team evaluate key internal home-grown LOB applications for cloud readiness and to establish a modernization roadmap for those applications which fit the bill.",
       "start": "02/2019",
       "end": "04/2019",
       "tags": {
@@ -311,7 +311,7 @@
       "company": "BakerHostetler",
       "via": "Blue Chip Consulting Group",
       "brief": "Contributed to the back end of a data harvesting application which leveraged third party APIs to aggregate data on court proceedings.",
-      "description": "Provided programming and design support to teammates who were working on a system which aggregates court proceedings data from multiple sources and external APIs to help the client better predict court case outcomes.",
+      "description": "I helped architect and develop a system which aggregated court data to help predict case outcomes based on case type, lawyer, and judge. The system was built on durable functions using a fan-out pattern and leveraged several Azure PaaS services, including storage, key vault, service bus, and Azure SQL.",
       "start": "09/2018",
       "end": "11/2018",
       "tags": {
@@ -345,7 +345,7 @@
       "company": "Bob Evans Restaurants",
       "via": "Blue Chip Consulting Group",
       "brief": "Team lead for an engagement which modernized integrations across all external vendors and partners by moving from on-premises scheduled jobs to Azure Functions, Logic Apps, and Dynamics 365.",
-      "description": "In my second engagement with Bob Evans, I was responsible for leading a team of developers as we replaced more than 25 legacy systems integrations with modern solutions built on Azure Logic Apps and Azure Functions with connectivity to Dynamics 365. I designed best-practices solutions for security, application monitoring, and DevOps automation and managed the relationships and expectations across HR and IT business units.",
+      "description": "In my second engagement with Bob Evans, I was responsible for leading a team of developers as we replaced more than 25 legacy vendor systems integrations. Our final state was built mostly on Azure Logic Apps and Functions with connectivity to Dynamics 365. I designed best-practices solutions for security, application monitoring, and DevOps automation and managed the relationships and expectations across HR and IT business units.",
       "start": "11/2017",
       "end": "08/2018",
       "tags": {
@@ -362,7 +362,7 @@
       "company": "Save The Children",
       "via": "Blue Chip Consulting Group",
       "brief": "Lead the development of a tool used by STC teams to improve worldwide collaboration of child sponsorship opportunities.",
-      "description": "Save the Children needed a web site to drive efficiency into the core business processes conducted with globally-distributed fundraising centers. I lead the project from envision and plan through delivery, serving as team leader, tech lead, and project manager. Azure Dev Ops was leveraged to coordinate alignment across our development team, STC business stakeholders and sponsors, and Blue Chip executive leadership.",
+      "description": "Save the Children needed a web site to drive efficiency into their core business processes conducted between globally distributed fundraising centers. I lead the project from envision and plan through delivery, serving as team leader, tech lead, and project manager. We used Azure Dev Ops to coordinate across our development team, STC business stakeholders and sponsors, and Blue Chip executive leadership.",
       "start": "04/2017",
       "end": "11/2017",
       "tags": {
@@ -379,7 +379,7 @@
       "company": "Bob Evans Restaurants",
       "via": "Blue Chip Consulting Group",
       "brief": "I helped the Bob Evans development teams understand how to build for a cloud-first future through training presentations and hands-on assistance with POCs.",
-      "description": "During the first stages of Bob Evans' migration to Azure, I was brought in as a subject matter expert to help development teams from across the Bob Evans organization plan for uplift and modernization scenarios. I provided guidance on development and deployment strategies, performed hands-on coding and training activities, and helped the CTO and a team of directors build migration and staffing forecasts.",
+      "description": "During the ‘day-zero’ period of Bob Evans' migration to Azure, I was brought in as a subject matter expert to help development teams from across the Bob Evans organization plan for uplift and modernization scenarios. I provided guidance on development and deployment strategies, performed hands-on coding and training activities, and helped the CTO and a team of directors build migration and staffing forecasts.",
       "start": "04/2017",
       "end": "05/2017",
       "tags": {
@@ -396,7 +396,7 @@
       "company": "MPRO",
       "via": "Blue Chip Consulting Group",
       "brief": "Helped a smaller non-profit organization understand their options for application modernization and a migration to Azure.",
-      "description": "I served as project lead and primary developer on this engagement with a non-profit healthcare company. I provided the client with application architecture review, development of PowerShell scripts, and data migration assistance. I helped MPRO establish a path for cloud migration which was adopted in a future engagement. During my application review I uncovered several security issues which I remedied.",
+      "description": "I served as project lead and primary developer on this engagement with a non-profit healthcare company. I provided MPRO with application architecture review, PowerShell script development, and data migration assistance. I helped them establish a path for cloud migration which was adopted in a future engagement. During my application review I uncovered several security issues which I remedied.",
       "start": "12/2016",
       "end": "03/2017",
       "tags": {
@@ -413,7 +413,7 @@
       "company": "Wendys Restaurants",
       "via": "Blue Chip Consulting Group",
       "brief": "Developer on Wendy's Intranet solution",
-      "description": "My first project at Blue Chip Consulting was improving and building on their Intranet site which was hosted in SharePoint Online. I helped improve upon the reliability and workflow for their daily internal newsletter, built several remote event receivers for custom integrations, and wrote some client side JavaScript using the SharePoint libraries. <p>I helped the team solve behaviorial issues with several client side sorting and filtering features by developing unit tests in JUnit.</p>",
+      "description": "My first project at Blue Chip Consulting was improving and building on Wendy's Intranet site which was hosted in SharePoint Online. I helped improve upon the reliability and workflow for their daily internal newsletter, built several remote event receivers for custom integrations, and wrote client-side JavaScript using the SharePoint libraries. <p>I helped the team solve behavioral issues with several client-side sorting and filtering features by developing unit tests in JUnit.</p>",
       "start": "10/2016",
       "end": "02/2017",
       "tags": {
@@ -426,8 +426,7 @@
       }
     }
   ],
-  "employment": [
-    {
+  "employment": [{
       "role": "Senior Solution Architect",
       "company": "Core BTS",
       "description": "Blue Chip Consulting Group was acquired by Core BTS in October of 2020.",
@@ -437,7 +436,7 @@
     {
       "role": "Senior Solution Architect",
       "company": "Blue Chip Consulting Group",
-      "description": "In January of 2020 I was promoted to Senior Solution Architect. My responsibilities broadened to include Blue Chip brand development in Nashville, focus area oversight and direction, and tip-of-the-spear engagements with new clients.",
+      "description": "In January of 2020 I was promoted to Senior Solution Architect. My responsibilities broadened to include Blue Chip brand development in Nashville, focus area oversight and direction, and first-wave engagements with new clients.",
       "comment": "In addition to my consulting duties, I also contributed directly to the growth of the organization, including: <ul><li>Founding member of the Application Development focus area leadership team</li><li>Established technical interviewing process, including screening and scoring guidelines and feedback mechanisms</li><li>Piloted Azure Lighthouse implementation with key partners to help improve onboarding of our operations teams</li><li>Built a custom DevOps process for development projects which incorperated RAID logs and other Blue Chip key processes</li><li>Lead inventment in adoption of Postman Pro across the application development team with APIs and documentation provided as deliverables across engagements</li><li>As a leader for Blue Chip's 'Geo Growth' team for the Nashville region I was involved in community outreach, brand expansion, and local selling efforts",
       "end": "10/2020",
       "start": "01/2020"
@@ -459,14 +458,14 @@
     {
       "role": "Application Architect / Team Lead",
       "company": "eDoc4u",
-      "description": "I started with eDoc4u as a senior developer, leading a small team of junior and senior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on company growth projections. I spearheaded a migration from a multi-tenant monolithic asp.net application to a cloud-based SaaS model with dedicated tenant resources and lower, predictable TCO.",
+      "description": "I started with eDoc4u as a senior developer, leading a small team of junior and senior programmers in the development of a health and wellness assessment application. Within a few months I was promoted to application architect and began laying the framework for a new technical direction based on sales growth projections. I spearheaded a migration from a multi-tenant monolithic asp.net application to a cloud-based SaaS model with dedicated tenant resources and lower, predictable TCO.",
       "end": "10/2016",
       "start": "11/2013"
     },
     {
       "role": "Technical Partner",
       "company": "Insario Corporation",
-      "description": "As co-founder of Insario, I worked to grow our small business from a fledgling startup to an influential partner for American Express as they moved their products and services online, evben through the bust of the dot-com bubble. Due to overwhelming appreciation and support from internal business units, Insario was included in the list of 10 preferred technology vendors alongside companies like IBM and Tata Consulting.",
+      "description": "As co-founder of Insario, I worked to grow our small business from a fledgling startup to an influential partner for American Express as they moved their products and services online. Due to overwhelming appreciation and support from internal business units, Insario was included in the list of 10 preferred technology vendors alongside companies like IBM and Tata Consulting.",
       "end": "01/2013",
       "start": "06/1999"
     }
