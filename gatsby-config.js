@@ -8,10 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Josh Kewley | Azure Architect`,
     author: `Josh Kewley`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
+    description: `I'm an experienced Azure Architect with a Microsoft-centered development background and a track record of helping businesses of all sizes plan for, migrate, and modernize their workloads as they move to the cloud.`,
     siteUrl: `https://joshkewley.com/`
   },
   plugins: [
@@ -44,7 +41,6 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-netlify-cms',
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
