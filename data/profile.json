@@ -6,7 +6,7 @@
   },
   "fullname": "Josh Kewley",
   "role": "Azure Architect",
-  "summary": "I'm an experienced Azure Architect with a Microsoft-focused development background and a track record of helping businesses of all sizes plan for, migrate, and modernize their workloads as they move to the cloud. I'm an Azure fanatic and automation enthusiast looking for an opportunity to apply my experience with team leadership, software development, and Microsoft Azure at an organization which focuses on quality of delivery.",
+  "summary": "I'm an experienced Azure Architect with a Microsoft-centered development background and a track record of helping businesses of all sizes plan for, migrate, and modernize their workloads as they move to the cloud. I'm an Azure fanatic and automation enthusiast looking for an opportunity to apply my experience with team leadership, software development, and Microsoft Azure at an organization which focuses on quality of delivery.",
   "skills": [{
       "title": "Azure",
       "type": "percent",
@@ -175,7 +175,7 @@
       "company": "Walgreens Boots Alliance",
       "via": "Microsoft Consulting Services",
       "brief": "Built custom tooling to support DevOps processes used by Microsoft's internal IaaS application migration teams (LEAP).",
-      "description": "In a stand-alone role within WBA, I designed the DevOps processes leveraged by IaaS-focused engineers on Microsoft's LEAP team to lift and shift hundreds of applications into Azure. The solution featured private build agents, application onboarding and pipeline creation automation, and a domain specific language which abstracted the technical requirements of the underlying Azure architecture, allowing Microsoft engineers to remain focused on application inventories without having to be fully knowledgeable of WBA's security, architecture, and deployment requirements. I also became a key policy contributor for Azure naming conventions leveraged by WBA teams across the globe.",
+      "description": "In a stand-alone role within WBA, I designed the DevOps processes leveraged by IaaS engineers on Microsoft's LEAP team to lift and shift hundreds of applications into Azure. The solution featured private build agents, application onboarding and pipeline creation automation, and a domain specific language which abstracted the technical requirements of the underlying Azure architecture, allowing Microsoft engineers to remain focused on application inventories without having to be fully knowledgeable of WBA's security, architecture, and deployment requirements. I also became a key policy contributor for Azure naming conventions leveraged by WBA teams across the globe.",
       "start": "02/2020",
       "end": "09/2020",
       "tags": {
@@ -192,7 +192,7 @@
       "company": "Hershey Entertainment",
       "via": "Blue Chip Consulting Group",
       "brief": "Envision and Plan engagement to help Hershey Entertainment prepare for an Azure migration of a number of LAMP-based self-hosted applications.",
-      "description": "Hershey Entertainment and Resorts asked for assistance planning a lift-and-shift cloud migration for their key LOB applications. They were interested in modernization opportunities as they moved to the cloud and explore phased uplift approaches to accelerate adoption. The final deliverable to the client included a three-step plan for the migration effort and estimated runtime costs based on current traffic across multiple web sites.",
+      "description": "Hershey Entertainment and Resorts asked for assistance planning a lift-and-shift cloud migration for their primary LOB applications. They were interested in modernization opportunities as they moved to the cloud and asked for phased uplift approaches to accelerate adoption. The final deliverable to the client included a three-step plan for the migration effort and estimated runtime costs based on current traffic across multiple web sites.",
       "start": "01/2020",
       "end": "02/2020",
       "tags": {
@@ -209,7 +209,7 @@
       "company": "NC4",
       "via": "Blue Chip Consulting Group",
       "brief": "A divestiture required carving out code, processes, backlog items, and identites for several Azure Dev Ops projects, rehoming them in a new organization.",
-      "description": "NC4 wanted help splitting off a portion of their business which was built around a web application built by another team at Blue Chip. I was brought in to migrate projects, backlogs, code, and user accounts in Azure Dev Ops to the new organization as part of the divestiture. The migration included custom scripts which leveraged Azure Dev Ops APIs to pump data across organizations and a third-party tool to migrate an intact work item history. This work inspired the post I wrote explaining how to  <a href='https://dev.to/jkewley/migrate-azure-devops-work-item-queries-to-a-new-organization-2ogb' target='_blank'>Migrate Azure DevOps work item queries to a new organization</a>.",
+      "description": "NC4 needed help splitting off a portion of their business which was built around a web application built by another team at Blue Chip. I was brought in to migrate projects, backlogs, code, and user accounts in Azure Dev Ops to the new organization as part of the divestiture. The migration included custom scripts which leveraged Azure Dev Ops APIs to pump data across organizations and a third-party tool to migrate an intact work item history. This work inspired the post I wrote explaining how to  <a href='https://dev.to/jkewley/migrate-azure-devops-work-item-queries-to-a-new-organization-2ogb' target='_blank'>Migrate Azure DevOps work item queries to a new organization</a>.",
       "start": "09/2019",
       "end": "12/2019",
       "tags": {
@@ -413,7 +413,7 @@
       "company": "Wendys Restaurants",
       "via": "Blue Chip Consulting Group",
       "brief": "Developer on Wendy's Intranet solution",
-      "description": "My first project at Blue Chip Consulting was improving and building on Wendy's Intranet site which was hosted in SharePoint Online. I helped improve upon the reliability and workflow for their daily internal newsletter, built several remote event receivers for custom integrations, and wrote client-side JavaScript using the SharePoint libraries. <p>I helped the team solve behavioral issues with several client-side sorting and filtering features by developing unit tests in JUnit.</p>",
+      "description": "In my first project at Blue Chip Consulting, I worked on Wendy's Intranet site which was hosted in SharePoint Online. I helped improve upon the reliability and workflow for their daily internal newsletter, built several remote event receivers for custom integrations, and wrote client-side JavaScript using the SharePoint libraries. <p>I helped the team solve behavioral issues with several client-side sorting and filtering features by developing unit tests in JUnit.</p>",
       "start": "10/2016",
       "end": "02/2017",
       "tags": {
