@@ -1,8 +1,9 @@
-import React from 'react';
-import MailIcon from '../assets/mail.svg';
-import MobileIcon from '../assets/mobile.svg';
 import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
+import MailIcon from '../assets/mail.svg';
+import MobileIcon from '../assets/mobile.svg';
+import React from 'react';
+import ResumeIcon from '../assets/resume.svg';
 
 const Contact = ({ field, value }) => (
   <span className="flex my-2 text-primary-900 tracking-widest items-center">
@@ -40,6 +41,12 @@ const Contact = ({ field, value }) => (
       <>
         <LocationIcon className="contact-icon" />
         <span className="contact-link">{value}</span>
+      </>
+    )}
+    {field === 'resume' && (
+      <>
+        <ResumeIcon className="contact-icon" />
+        <span className="contact-link"><a href={value} target='_blank'>Download cv</a></span>
       </>
     )}
   </span>
