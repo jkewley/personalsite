@@ -196,7 +196,7 @@
       "start": "01/2020",
       "end": "02/2020",
       "tags": {
-        "Cloud": "I determined that many of the LAMP projects were ready for a low-impact migration to Azure App Service on Linux paired with Azure Storage and Azure's CDN offerings for static assets. The primary booking engine was built on top of a CMS system which required deployment to a Linux VM, rather than a PaaS offering. I worked with the CMS vendor to determine the appropriate SKUs and deployment architecture for an Azure presence.",
+        "Cloud": "Many of the LAMP projects were ready for a low-impact migration to Azure App Service on Linux paired with Azure Storage and CDN offerings. The primary booking engine was built on top of a CMS system which required deployment to a Linux VM, rather than a PaaS offering. I worked with the CMS vendor to determine the appropriate SKUs and deployment architecture for an Azure presence.",
         "Code": "",
         "Identity": "The migration plan deliverable included adoption of Azure Active Directory for administrative accounts and Azure RBAC.",
         "Data": "",
@@ -383,7 +383,7 @@
       "start": "04/2017",
       "end": "05/2017",
       "tags": {
-        "Cloud": "Some application teams were looking for guidance on how to move to PaaS from on-premises VMs. I helped these teams think through the challenges they would face and formulate an approach for the migration. In some cases I helped out by implementing POCs for them. Blue Chip had IaaS, identity, and modern workplace engineers on site to assist with lift-and-shift migrations. I helped them with application analysis and decisions on how to move forward.",
+        "Cloud": "Application teams were looking for guidance on how to move to PaaS from on-premises VMs. I helped them think through the challenges they would face and formulate an approach for the migration. In some cases I helped by implementing POCs. Blue Chip had IaaS, identity, and modern workplace engineers on site to assist with lift-and-shift migrations. I helped them with application analysis and decisions on how to move forward.",
         "Code": "I build several web POCs to help the teams understand the role of authentication and CI/CD automation. Most of the code I delivered during this engagement was written in .Net, but I also delivered several PowerShell scripts to help Azure subscription owners with deployment and management tasks for things like Azure Dev Ops and service principals.",
         "Identity": "The identitfy stories in early 2107 weren't very mature yet, but I helped dev teams understand how to move from custom and LDAP authentication methods to Azure Active Directory.",
         "Data": "",
